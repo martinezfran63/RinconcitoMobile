@@ -49,7 +49,7 @@ class GalleryScreen extends React.Component {
 
       <Button
         title="Home"
-        onPress={() => navigate('Gallery', {name: 'GalleryScreen'})}
+        onPress={() => navigate('Home', {name: 'GalleryScreen'})}
       />
       </View>
     );
