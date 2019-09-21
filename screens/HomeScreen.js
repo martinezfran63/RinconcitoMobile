@@ -30,9 +30,9 @@ const styles = StyleSheet.create({
       const {navigate} = this.props.navigation;
       return (
         <View style={styles.container}>
-        <Text style={styles.welcome}>Bienvenidos a El Rinconcito del Sabor!</Text>
         <Image style={styles.logo}source={require('../img/rinconcito_logo.png')} />
-        <Button
+        <Button 
+          style={styles.logo}
           title="Iniciar"
           onPress={() => navigate('Profile', {name: 'Jane'})}
         />

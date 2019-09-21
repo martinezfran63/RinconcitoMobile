@@ -28,9 +28,9 @@ class HomeScreen extends React.Component {
     const {navigate} = this.props.navigation;
     return (
       <View style={styles.container}>
-      <Text style={styles.welcome}>Bienvenidos a El Rinconcito del Sabor!</Text>
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
+        style={styles.welcome}
         title="Iniciar"
         onPress={() => navigate('Gallery', {name: 'Jane'})}
       />
