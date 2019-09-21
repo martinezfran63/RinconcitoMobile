@@ -1,7 +1,8 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, Image, Button } from 'react-native';
+import { Platform, StyleSheet, Text, View, Image } from 'react-native';
+import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 
 const styles = StyleSheet.create({
@@ -30,9 +31,9 @@ class HomeScreen extends React.Component {
       <View style={styles.container}>
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
-        style={styles.welcome}
         title="Iniciar"
-        onPress={() => navigate('Gallery', {name: 'Jane'})}
+        color="#ffffff"
+        onPress={() => navigate('Gallery')}
       />
       </View>
     );
@@ -49,11 +50,11 @@ class GalleryScreen extends React.Component {
 
       <Button
         title="Home"
-        onPress={() => navigate('Home', {name: 'GalleryScreen'})}
+        onPress={() => navigate('Home')}
       />
             <Button
         title="Bebidas"
-        onPress={() => navigate('Bebidas', {name: 'GalleryScreen'})}
+        onPress={() => navigate('Bebidas')}
       />
 
       </View>
