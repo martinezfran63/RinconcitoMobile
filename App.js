@@ -23,6 +23,34 @@ const styles = StyleSheet.create({
     marginTop: 25,
     
   },
+  container: {
+    flex: 1,
+    marginTop: 30,
+  },
+  image: {
+    height: 120,
+    width: '100%',
+  },
+  fullImageStyle: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
+    width: '98%',
+    resizeMode: 'contain',
+  },
+  modelStyle: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.4)',
+  },
+  closeButtonStyle: {
+    width: 25,
+    height: 25,
+    top: 9,
+    right: 9,
+    position: 'absolute',
+  },
 });
 
 class HomeScreen extends React.Component {
