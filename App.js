@@ -1,12 +1,13 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { StatusBar, Platform, StyleSheet, Text, View, Image } from 'react-native';
+import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal } from 'react-native';
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 
+
 const styles = StyleSheet.create({
-  container: {
+  container_one: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -28,7 +29,7 @@ class HomeScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container}>
+      <View style={styles.container_one}>
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
         title="Iniciar"
@@ -45,7 +46,7 @@ class GalleryScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container}>
+      <View style={styles.container_one}>
       <Text style={styles.welcome}>Gallery Page!</Text>
 
       <Button
@@ -68,7 +69,7 @@ class BebidasScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container}>
+      <View style={styles.container_one}>
 
 <GallerySwiper
             images={[
