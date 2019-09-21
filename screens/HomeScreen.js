@@ -22,10 +22,23 @@ const styles = StyleSheet.create({
   });
   
 
-const HomeScreen = ({ navigation }) => (
-    <View style={styles.container}>
-    <Image style={styles.logo}source={require('../img/rinconcito_logo.png')} />
-    <Button onPress={() => navigation.navigate('First')} title="Iniciar" />
-    </View>
-  )
+  class HomeScreen extends React.Component {
+    static navigationOptions = {
+      title: 'Welcome',
+    };
+    render() {
+      const {navigate} = this.props.navigation;
+      return (
+        <View style={styles.container}>
+        <Image style={styles.logo}source={require('../img/rinconcito_logo.png')} />
+        <Button 
+          style={styles.logo}
+          title="Iniciar"
+          onPress={() => navigate('Profile', {name: 'Jane'})}
+        />
+        </View>
+      );
+    }
+  }
+  
 export default HomeScreen
