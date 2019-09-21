@@ -1,7 +1,7 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, Image } from 'react-native';
+import { StatusBar, Platform, StyleSheet, Text, View, Image } from 'react-native';
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 
