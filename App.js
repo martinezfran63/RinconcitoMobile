@@ -10,27 +10,27 @@ const list = [
   {
     name: 'Frutas Preparadas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice President'
+    subtitle: '(Prepared Fruits)'
   },
   {
     name: 'Papas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    subtitle: '(Chips)'
   },
   {
     name: 'Bebidas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    subtitle: '(Drinks)'
   },
   {
     name: 'Nieves',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    subtitle: '(Ice Cream)'
   },
   {
     name: 'Elote',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    subtitle: '(Corn)'
   },
 ]
 
@@ -93,7 +93,7 @@ class HomeScreen extends React.Component {
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
         titleStyle= {{
-          color: 'red',
+          color: '#C81315',
           fontFamily: 'Helvetica',
           fontSize: 30, 
            }}
@@ -112,14 +112,30 @@ keyExtractor = (item, index) => index.toString()
 
 renderItem = ({ item }) => (
   <ListItem
+  containerStyle= {{
+    backgroundColor: '#C81315',
+
+  }}
+    titleStyle= {{
+      color: 'white',
+      fontFamily: 'Helvetica',
+      fontSize: 30, 
+      }}
+     subtitleStyle= {{
+      color: 'white',
+      fontFamily: 'Helvetica',
+      fontSize: 20, 
+      }}
     title={item.name}
     subtitle={item.subtitle}
     leftAvatar={{
+      rounded: false,
+      size: "large",
       source: item.avatar_url && { uri: item.avatar_url },
       title: item.name[0]
     }}
     bottomDivider
-    chevron 
+    chevron
     onPress={() => this.props.navigation.navigate('Bebidas')}
   />
 )
