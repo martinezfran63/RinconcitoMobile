@@ -5,16 +5,17 @@ import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, F
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 import { ListItem } from 'react-native-elements'
+import Frutas_Preparadas_Icon from './img/Frutas_Preparadas_Icon.jpg';
 
 const list = [
   {
     name: 'Frutas Preparadas',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: {Frutas_Preparadas_Icon},
     subtitle: '(Prepared Fruits)'
   },
   {
     name: 'Papas',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: './img/rinconcito_logo.png',
     subtitle: '(Chips)'
   },
   {
