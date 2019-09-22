@@ -14,8 +14,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#C81315',
   },
   logo: {
-    width: 300,
-    height: 300,
+    width: 600,
+    height: 600,
   },
   welcome: {
     fontSize: 50,
@@ -28,8 +28,9 @@ const styles = StyleSheet.create({
     marginTop: 30,
   },
   image: {
-    height: 120,
+    height: 400,
     width: '100%',
+    
   },
   fullImageStyle: {
     justifyContent: 'center',
@@ -60,8 +61,14 @@ class HomeScreen extends React.Component {
       <View style={styles.container_one}>
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
+        titleStyle= {{
+          color: '#F51CB7',
+          fontFamily: 'Helvetica',
+          fontSize: 30, 
+           }}
         title="Iniciar"
-        color="#ffffff"
+        type="outline"
+        raised="true"
         onPress={() => navigate('Gallery')}
       />
       </View>
@@ -75,13 +82,7 @@ class GalleryScreen extends React.Component {
     const {navigate} = this.props.navigation;
     return (
       <View style={styles.container_one}>
-      <Text style={styles.welcome}>Gallery Page!</Text>
-
-      <Button
-        title="Home"
-        onPress={() => navigate('Home')}
-      />
-            <Button
+     <Button
         title="Bebidas"
         onPress={() => navigate('Bebidas')}
       />
@@ -134,10 +135,26 @@ class BebidasScreen extends React.Component {
 }
 
 const MainNavigator = createStackNavigator({
-  Home: {screen: HomeScreen},
-  Gallery: {screen: GalleryScreen},
-  Bebidas: {screen: BebidasScreen}
-
+  Home: {screen: HomeScreen,
+    navigationOptions: () => ({
+      headerBackTitle: null,
+      headerTransparent: true,
+    }),
+  },
+  Gallery: {screen: GalleryScreen,
+    navigationOptions: () => ({
+      title: `Seleccionar Menu`,
+      headerBackTitle: true,
+      headerTransparent: true,
+      headerTintColor: 'white',
+    }),
+  },
+  Bebidas: {screen: BebidasScreen,
+    navigationOptions: () => ({
+      headerTransparent: true,
+      headerTintColor: 'white',
+    }),
+ }
 });
 
 const App = createAppContainer(MainNavigator);
