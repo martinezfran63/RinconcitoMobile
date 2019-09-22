@@ -119,9 +119,7 @@ renderItem = ({ item }) => (
     }}
     bottomDivider
     chevron 
-    onPress={() => {
-      alert('You tapped the button!');
-    }}
+    onPress={() => this.props.navigation.navigate('Bebidas')}
   />
 )
   render() {
