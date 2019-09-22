@@ -8,27 +8,27 @@ import { ListItem } from 'react-native-elements'
 
 const list = [
   {
-    name: 'Amy Farha',
+    name: 'Frutas Preparadas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: 'Vice President'
   },
   {
-    name: 'Chris Jackson',
+    name: 'Papas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: 'Vice Chairman'
   },
   {
-    name: 'Chris Jackson',
+    name: 'Bebidas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: 'Vice Chairman'
   },
   {
-    name: 'Chris Jackson',
+    name: 'Nieves',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: 'Vice Chairman'
   },
   {
-    name: 'Chris Jackson',
+    name: 'Elote',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: 'Vice Chairman'
   },
@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    marginTop: 30,
+    marginTop: 90,
+    backgroundColor: '#C81315',
   },
   image: {
     height: 400,
@@ -125,18 +126,12 @@ renderItem = ({ item }) => (
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View>
+      <View style={styles.container}>
         <FlatList
       keyExtractor={this.keyExtractor}
       data={list}
       renderItem={this.renderItem}
     />
-
-
-     <Button
-        title="Bebidas"
-        onPress={() => navigate('Bebidas')}
-      />
 
       </View>
     );
