@@ -4,7 +4,18 @@ import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal } from 'react-native';
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
+import { ListItem } from 'react-native-elements'
 
+const list = [
+  {
+    title: 'Appointments',
+    icon: 'av-timer'
+  },
+  {
+    title: 'Trips',
+    icon: 'flight-takeoff'
+  },
+]
 
 const styles = StyleSheet.create({
   container_one: {
@@ -62,7 +73,7 @@ class HomeScreen extends React.Component {
       <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
       <Button
         titleStyle= {{
-          color: '#F51CB7',
+          color: 'red',
           fontFamily: 'Helvetica',
           fontSize: 30, 
            }}
@@ -81,7 +92,20 @@ class GalleryScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container_one}>
+      <View>
+        {
+          list.map((item, i) => (
+            <ListItem
+              key={i}
+              title={item.title}
+              leftIcon={{ name: item.icon }}
+              bottomDivider
+              chevron
+            />
+          ))
+        }
+
+
      <Button
         title="Bebidas"
         onPress={() => navigate('Bebidas')}
