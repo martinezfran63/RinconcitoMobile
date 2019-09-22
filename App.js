@@ -1,19 +1,21 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal } from 'react-native';
+import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 import { ListItem } from 'react-native-elements'
 
 const list = [
   {
-    title: 'Appointments',
-    icon: 'av-timer'
+    name: 'Amy Farha',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Vice President'
   },
   {
-    title: 'Trips',
-    icon: 'flight-takeoff'
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Vice Chairman'
   },
 ]
 
@@ -65,6 +67,8 @@ const styles = StyleSheet.create({
   },
 });
 
+
+
 class HomeScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
@@ -87,23 +91,31 @@ class HomeScreen extends React.Component {
   }
 }
 
-
 class GalleryScreen extends React.Component {
+keyExtractor = (item, index) => index.toString()
+
+renderItem = ({ item }) => (
+  <ListItem
+    title={item.name}
+    subtitle={item.subtitle}
+    leftAvatar={{
+      source: item.avatar_url && { uri: item.avatar_url },
+      title: item.name[0]
+    }}
+    bottomDivider
+    chevron 
+
+  />
+)
   render() {
     const {navigate} = this.props.navigation;
     return (
       <View>
-        {
-          list.map((item, i) => (
-            <ListItem
-              key={i}
-              title={item.title}
-              leftIcon={{ name: item.icon }}
-              bottomDivider
-              chevron
-            />
-          ))
-        }
+        <FlatList
+      keyExtractor={this.keyExtractor}
+      data={list}
+      renderItem={this.renderItem}
+    />
 
 
      <Button
@@ -120,7 +132,6 @@ class GalleryScreen extends React.Component {
 
 class BebidasScreen extends React.Component {
   render() {
-    const {navigate} = this.props.navigation;
     return (
       <View style={styles.container_one}>
 
