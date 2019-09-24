@@ -20,12 +20,12 @@ const list = [
   },
   {
     name: 'Bebidas',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: '../rinconcitomobile/img/bananasconcrema.jpg',
     subtitle: '(Drinks)'
   },
   {
     name: 'Nieves',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: '../rinconcitomobile/img/rinconcito_logo.png',
     subtitle: '(Ice Cream)'
   },
   {
