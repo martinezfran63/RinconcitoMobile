@@ -5,35 +5,9 @@ import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, F
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 import { ListItem } from 'react-native-elements'
-import Frutas_Preparadas_Icon from './img/Frutas_Preparadas_Icon.jpg';
+import rinconcito_logo from './img/rinconcito_logo.png';
+import listaDeCategorías from './listaDeCategorías.js';
 
-const list = [
-  {
-    name: 'Frutas Preparadas',
-    avatar_url: {Frutas_Preparadas_Icon},
-    subtitle: '(Prepared Fruits)'
-  },
-  {
-    name: 'Papas',
-    avatar_url: './img/rinconcito_logo.png',
-    subtitle: '(Chips)'
-  },
-  {
-    name: 'Bebidas',
-    avatar_url: '../rinconcitomobile/img/bananasconcrema.jpg',
-    subtitle: '(Drinks)'
-  },
-  {
-    name: 'Nieves',
-    avatar_url: '../rinconcitomobile/img/rinconcito_logo.png',
-    subtitle: '(Ice Cream)'
-  },
-  {
-    name: 'Elote',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: '(Corn)'
-  },
-]
 
 const styles = StyleSheet.create({
   container_one: {
@@ -54,7 +28,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    marginTop: 90,
+    
     backgroundColor: '#C81315',
   },
   image: {
@@ -82,6 +56,9 @@ const styles = StyleSheet.create({
     right: 9,
     position: 'absolute',
   },
+  flatList: {
+    marginTop: 100,
+  }
 });
 
 
@@ -91,7 +68,7 @@ class HomeScreen extends React.Component {
     const {navigate} = this.props.navigation;
     return (
       <View style={styles.container_one}>
-      <Image style={styles.logo}source={require('./img/rinconcito_logo.png')} />
+      <Image style={styles.logo}source={require('../rinconcitomobile/img/rinconcito_logo.png')} />
       <Button
         titleStyle= {{
           color: '#C81315',
@@ -120,19 +97,19 @@ renderItem = ({ item }) => (
     titleStyle= {{
       color: 'white',
       fontFamily: 'Helvetica',
-      fontSize: 30, 
+      fontSize: 50, 
       }}
      subtitleStyle= {{
       color: 'white',
       fontFamily: 'Helvetica',
-      fontSize: 20, 
+      fontSize: 30, 
       }}
     title={item.name}
     subtitle={item.subtitle}
     leftAvatar={{
       rounded: false,
       size: "large",
-      source: item.avatar_url && { uri: item.avatar_url },
+      source: item.avatar_url,
       title: item.name[0]
     }}
     bottomDivider
@@ -144,9 +121,9 @@ renderItem = ({ item }) => (
     const {navigate} = this.props.navigation;
     return (
       <View style={styles.container}>
-        <FlatList
+        <FlatList style={styles.flatList}
       keyExtractor={this.keyExtractor}
-      data={list}
+      data={listaDeCategorías}
       renderItem={this.renderItem}
     />
 
@@ -160,7 +137,7 @@ renderItem = ({ item }) => (
 class BebidasScreen extends React.Component {
   render() {
     return (
-      <View style={styles.container_one}>
+
 
 <GallerySwiper
             images={[
@@ -191,7 +168,7 @@ class BebidasScreen extends React.Component {
             ]}
         />
 
-      </View>
+  
     );
   }
 }
