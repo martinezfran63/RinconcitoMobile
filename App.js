@@ -8,6 +8,7 @@ import { ListItem } from 'react-native-elements'
 import listaDeCategorías from './data/listaDeCategorías.js';
 import BebidasScreen from './screens/BebidasScreen.js';
 import MainMenu from './screens/MainMenu.js';
+import SubMenu from './screens/SubMenu.js';
 import Home from './screens/Home.js';
 
 const MainNavigator = createStackNavigator({
@@ -20,6 +21,14 @@ const MainNavigator = createStackNavigator({
   MainMenu: {screen: MainMenu,
     navigationOptions: () => ({
       title: `Seleccionar Menu`,
+      headerBackTitle: true,
+      headerTransparent: true,
+      headerTintColor: 'white',
+    }),
+  },
+  SubMenu: {screen: SubMenu,
+    navigationOptions: () => ({
+      title: `The category `,
       headerBackTitle: true,
       headerTransparent: true,
       headerTintColor: 'white',

@@ -19,7 +19,6 @@ export default StyleSheet.create({
     },
     container: {
       flex: 1,
-      
       backgroundColor: '#C81315',
     },
     image: {
@@ -49,6 +48,6 @@ export default StyleSheet.create({
     },
     flatList: {
       marginTop: 100,
-    }
+    },
   });
   
