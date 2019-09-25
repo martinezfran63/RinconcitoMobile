@@ -5,7 +5,7 @@ import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, F
 import { Button } from 'react-native-elements';
 import GallerySwiper from "react-native-gallery-swiper";
 import { ListItem } from 'react-native-elements'
-import listaDeCategorías from './data/listaDeCategorías.js';
+import listaDeFrutasPreparadas from './data/listaDeFrutasPreparadas.js';
 import BebidasScreen from './screens/BebidasScreen.js';
 import MainMenu from './screens/MainMenu.js';
 import SubMenu from './screens/SubMenu.js';

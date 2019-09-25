@@ -3,17 +3,8 @@ import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { Card, ListItem, Button, Icon } from 'react-native-elements'
-import listaDeCategorías from '../data/listaDeCategorías.js';
 import styles from '../styles.js';
 
-const users = [
-    {
-       name: 'brynn',
-       avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg'
-    },
-   ]
-
-   
 class MainMenu extends React.Component {
 
   render() {
@@ -23,7 +14,7 @@ class MainMenu extends React.Component {
          <View style={styles.leftContainer}>
          <Card
         containerStyle= {{
-            marginTop:100,
+            marginTop:120,
             backgroundColor: '#C81315',
         }}
          image={require('../img/Frutas_Preparadas_Icon.jpg')}>
@@ -36,7 +27,8 @@ class MainMenu extends React.Component {
              icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
-             onPress={() => this.props.navigation.navigate('SubMenu')} />
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
+             )} />
          </Card>
          <Card
         containerStyle= {{
@@ -53,7 +45,8 @@ class MainMenu extends React.Component {
              icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
-             onPress={() => this.props.navigation.navigate('SubMenu')} />
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
+             )} />
          </Card>
          <Card
         containerStyle= {{
@@ -70,14 +63,15 @@ class MainMenu extends React.Component {
              icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
-             onPress={() => this.props.navigation.navigate('SubMenu')} />
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas'}
+             )} />
          </Card>
          </View>
          <View style={styles.rightContainer}>
 
          <Card
         containerStyle= {{
-            marginTop:100,
+            marginTop:120,
             backgroundColor: '#C81315',
         }}
         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
@@ -90,7 +84,8 @@ class MainMenu extends React.Component {
              icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
-             onPress={() => this.props.navigation.navigate('SubMenu')} />
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves'}
+             )} />
          </Card>
          <Card
         containerStyle= {{
@@ -106,7 +101,8 @@ class MainMenu extends React.Component {
              icon={<Icon name='code' color='#F51CB7'/>}
              buttonStyle={styles.buttonStyle1}
              title='Etcétera'
-             onPress={() => this.props.navigation.navigate('SubMenu')} />
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Etcétera'}
+             )} />
          </Card>
 
          </View>
