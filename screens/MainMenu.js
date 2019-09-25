@@ -19,38 +19,97 @@ class MainMenu extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-        <View style={styles.container}>
-        <Card
+        <View style={styles.mainContainer}>
+         <View style={styles.leftContainer}>
+         <Card
         containerStyle= {{
-             marginTop:80,
-             backgroundColor: '#C81315'
+            marginTop:100,
+            backgroundColor: '#C81315',
         }}
-        title='HELLO WORLD'
-        image={require('../img/rinconcito_logo.png')}>
-        <Text style={{marginBottom: 10}}>
-            The idea with React Native Elements is more about component structure than actual design.
-        </Text>
-        <Button
-            icon={<Icon name='code' color='#F51CB7' />}
-            buttonStyle={{borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0}}
-            title='Frutas Preparadas'
-            onPress={() => this.props.navigation.navigate('SubMenu')} />
-        </Card>
-        <Card
-        containerStyle= {{
-            backgroundColor: '#C81315'
-        }}
-         title='HELLO WORLD'
-         image={require('../img/rinconcito_logo.png')}>
-         <Text style={{marginBottom: 10}}>
-             The idea with React Native Elements is more about component structure than actual design.
-         </Text>
+         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
          <Button
+             titleStyle= {{
+                color: '#C81315',
+                fontFamily: 'Helvetica',
+                fontSize: 30, 
+                 }}
              icon={<Icon name='code' color='#F51CB7' />}
-             buttonStyle={{borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0}}
+             buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
              onPress={() => this.props.navigation.navigate('SubMenu')} />
          </Card>
+         <Card
+        containerStyle= {{
+
+            backgroundColor: '#C81315',
+        }}
+        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+         <Button
+             titleStyle= {{
+                color: '#C81315',
+                fontFamily: 'Helvetica',
+                fontSize: 30, 
+                 }}
+             icon={<Icon name='code' color='#F51CB7' />}
+             buttonStyle={styles.buttonStyle1}
+             title='Papas'
+             onPress={() => this.props.navigation.navigate('SubMenu')} />
+         </Card>
+         <Card
+        containerStyle= {{
+
+            backgroundColor: '#C81315',
+        }}
+        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+         <Button
+             titleStyle= {{
+                color: '#C81315',
+                fontFamily: 'Helvetica',
+                fontSize: 30, 
+                 }}
+             icon={<Icon name='code' color='#F51CB7' />}
+             buttonStyle={styles.buttonStyle1}
+             title='Bebidas'
+             onPress={() => this.props.navigation.navigate('SubMenu')} />
+         </Card>
+         </View>
+         <View style={styles.rightContainer}>
+
+         <Card
+        containerStyle= {{
+            marginTop:100,
+            backgroundColor: '#C81315',
+        }}
+        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+         <Button
+             titleStyle= {{
+                color: '#C81315',
+                fontFamily: 'Helvetica',
+                fontSize: 30, 
+                 }}
+             icon={<Icon name='code' color='#F51CB7' />}
+             buttonStyle={styles.buttonStyle1}
+             title='Nieves'
+             onPress={() => this.props.navigation.navigate('SubMenu')} />
+         </Card>
+         <Card
+        containerStyle= {{
+            backgroundColor: '#C81315',
+        }}
+        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+         <Button
+             titleStyle= {{
+                color: '#C81315',
+                fontFamily: 'Helvetica',
+                fontSize: 30, 
+                 }}
+             icon={<Icon name='code' color='#F51CB7'/>}
+             buttonStyle={styles.buttonStyle1}
+             title='Etcétera'
+             onPress={() => this.props.navigation.navigate('SubMenu')} />
+         </Card>
+
+         </View>
          </View>
     );
   }

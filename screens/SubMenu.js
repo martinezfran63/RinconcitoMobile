@@ -47,7 +47,7 @@ renderItem = ({ item }) => (
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container}>
+      <View style={styles.mainContainer}>
         <FlatList style={styles.flatList}
         keyExtractor={this.keyExtractor}
         data={listaDeCategorías}

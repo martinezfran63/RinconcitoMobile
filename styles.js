@@ -17,9 +17,18 @@ export default StyleSheet.create({
       marginTop: 25,
       
     },
-    container: {
+    mainContainer: {
       flex: 1,
+      flexDirection: 'row',
       backgroundColor: '#C81315',
+    },
+    leftContainer: {
+      backgroundColor: '#C81315',
+      width: 400,
+    },
+    rightContainer: {
+      backgroundColor: '#C81315',
+      width: 400,
     },
     image: {
       height: 400,
@@ -48,6 +57,9 @@ export default StyleSheet.create({
     },
     flatList: {
       marginTop: 100,
+    },
+    buttonStyle1: {
+      borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0, backgroundColor: "white",
     },
   });
   
