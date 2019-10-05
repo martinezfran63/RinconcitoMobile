@@ -1,8 +1,8 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
-import { Card,ImageBackground, ListItem, Button, Icon } from 'react-native-elements'
+import { StatusBar, Platform, StyleSheet, Text, View, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
+import { Card, Image, ListItem, Button, Icon } from 'react-native-elements'
 import styles from '../styles.js';
 
 class MainMenu extends React.Component {
@@ -16,8 +16,11 @@ class MainMenu extends React.Component {
         containerStyle= {{
             marginTop:120,
             backgroundColor: 'white'
-        }}
-         image={require('../img/Frutas_Preparadas_Icon.jpg')     }>
+        }}>
+        <Image
+            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
+            style={{ width: 250, height: 250 }}
+        />
          <Button
              titleStyle= {{
                 color: 'black',
@@ -32,8 +35,11 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             backgroundColor: 'white',
-        }}
-        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+        }}>
+        <Image
+            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
+            style={{ width: 250, height: 250 }}
+        />
          <Button
              titleStyle= {{
                 color: '#C81315',
@@ -48,8 +54,11 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             backgroundColor: 'white',
-        }}
-        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+        }}>
+        <Image
+            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
+            style={{ width: 250, height: 250 }}
+        />
          <Button
              titleStyle= {{
                 color: '#C81315',
@@ -68,8 +77,14 @@ class MainMenu extends React.Component {
         containerStyle= {{
             marginTop:120,
             backgroundColor: 'white',
-        }}
-        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+        }}>
+        <Image
+            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
+            style={{ width: 250, 
+            height: 250, 
+            
+         }}
+        />
          <Button
              titleStyle= {{
                 color: '#C81315',
@@ -84,8 +99,11 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             backgroundColor: 'white',
-        }}
-        image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+        }}>
+        <Image
+            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
+            style={{ width: 250, height: 250 }}
+        />
          <Button
              titleStyle= {{
                 color: '#C81315',
