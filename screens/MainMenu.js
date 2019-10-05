@@ -2,7 +2,7 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
-import { Card, ListItem, Button, Icon } from 'react-native-elements'
+import { Card,ImageBackground, ListItem, Button, Icon } from 'react-native-elements'
 import styles from '../styles.js';
 
 class MainMenu extends React.Component {
@@ -15,16 +15,15 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             marginTop:120,
-            backgroundColor: '#C81315',
+            backgroundColor: 'white'
         }}
-         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
+         image={require('../img/Frutas_Preparadas_Icon.jpg')     }>
          <Button
              titleStyle= {{
-                color: '#C81315',
+                color: 'black',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
-             icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
@@ -32,8 +31,7 @@ class MainMenu extends React.Component {
          </Card>
          <Card
         containerStyle= {{
-
-            backgroundColor: '#C81315',
+            backgroundColor: 'white',
         }}
         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
          <Button
@@ -42,7 +40,6 @@ class MainMenu extends React.Component {
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
-             icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
@@ -50,8 +47,7 @@ class MainMenu extends React.Component {
          </Card>
          <Card
         containerStyle= {{
-
-            backgroundColor: '#C81315',
+            backgroundColor: 'white',
         }}
         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
          <Button
@@ -60,7 +56,6 @@ class MainMenu extends React.Component {
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
-             icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas'}
@@ -72,7 +67,7 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             marginTop:120,
-            backgroundColor: '#C81315',
+            backgroundColor: 'white',
         }}
         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
          <Button
@@ -81,7 +76,6 @@ class MainMenu extends React.Component {
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
-             icon={<Icon name='code' color='#F51CB7' />}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves'}
@@ -89,7 +83,7 @@ class MainMenu extends React.Component {
          </Card>
          <Card
         containerStyle= {{
-            backgroundColor: '#C81315',
+            backgroundColor: 'white',
         }}
         image={require('../img/Frutas_Preparadas_Icon.jpg')}>
          <Button
@@ -98,7 +92,6 @@ class MainMenu extends React.Component {
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
-             icon={<Icon name='code' color='#F51CB7'/>}
              buttonStyle={styles.buttonStyle1}
              title='Etcétera'
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Etcétera'}
