@@ -11,7 +11,9 @@ import MainMenu from './screens/MainMenu.js';
 import SubMenu from './screens/SubMenu.js';
 import Home from './screens/Home.js';
 
+
 const MainNavigator = createStackNavigator({
+
   Home: {screen: Home,
     navigationOptions: () => ({
       headerBackTitle: null,

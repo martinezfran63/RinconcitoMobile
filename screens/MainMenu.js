@@ -4,6 +4,11 @@ import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { Card, Image, ListItem, Button, Icon } from 'react-native-elements'
 import styles from '../styles.js';
+import listaDeFrutasPreparadas from '../data/listaDeFrutasPreparadas.js';
+import listaDeElotes from '../data/listaDeElotes.js';
+import listaDeNieves from  '../data/listaDeNieves.js';
+import listaDeBebidas from  '../data/listaDeBebidas.js';
+import listaDePapas from  '../data/listaDePapas.js';
 
 class MainMenu extends React.Component {
 
@@ -30,7 +35,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeBebidas}
              )} />
          </Card>
          <Card
@@ -51,7 +56,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDePapas}
              )} />
          </Card>
          </View>
@@ -74,7 +79,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas'}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeBebidas}
              )} />
          </Card>
          <Card
@@ -94,7 +99,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves'}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeNieves}
              )} />
          </Card>
          </View>
@@ -117,7 +122,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Elotes'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Elotes'}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeElotes}
              )} />
          </Card>
          </View>

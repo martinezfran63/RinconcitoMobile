@@ -3,11 +3,12 @@ import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { ListItem } from 'react-native-elements'
-import listaDeFrutasPreparadas from '../data/listaDeFrutasPreparadas.js';
-import listaDeElotes from '../data/listaDeElotes.js';
+
+
 import styles from '../styles.js';
 
 class SubMenu extends React.Component {
+
 keyExtractor = (item, index) => index.toString()
 
 renderItem = ({ item }) => (
@@ -42,20 +43,20 @@ renderItem = ({ item }) => (
       }}
     bottomDivider   
     chevron
-    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam('menuParam'))}
+    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam("menuParam"))}
   />
 )
+
   render() {
-    const {navigate} = this.props.navigation;
+    const navigation = this.props.navigation;
+    const arr = navigation.getParam('menuList', []);
     return (      
       <View style={styles.mainContainer}>
-
         <FlatList style={styles.flatList}
         keyExtractor={this.keyExtractor}
-        data={listaDeFrutasPreparadas}
+        data={arr}
         renderItem={this.renderItem}
-    />
-
+       />
       </View>
     );
   }
