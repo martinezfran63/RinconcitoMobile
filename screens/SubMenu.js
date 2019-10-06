@@ -19,16 +19,16 @@ renderItem = ({ item }) => (
     titleStyle= {{
       color: 'white',
       fontFamily: 'Helvetica',
-      fontSize: 50, 
+      fontSize: 25, 
       }}
      subtitleStyle= {{
       color: 'white',
       fontFamily: 'Helvetica',
-      fontSize: 30, 
+      fontSize: 25, 
       }}
     title={item.name}
-    subtitle={item.subtitle}
     leftAvatar={{
+      color: 'white',
       rounded: false,
       size: "large",
       source: item.avatar_url,

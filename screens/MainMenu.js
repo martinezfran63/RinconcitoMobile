@@ -14,12 +14,13 @@ class MainMenu extends React.Component {
          <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
-            marginTop:100,
-            backgroundColor: 'white'
+            marginTop:65,
+            backgroundColor: 'white',
+            width:320,
         }}>
         <Image
-            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
-            style={{ width: 250, height: 250 }}
+            source={require('../img/Frutas_Preparadas_300x250.png')     }
+            style={{ width: 300, height: 250 }}
         />
          <Button
              titleStyle= {{
@@ -35,16 +36,18 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             backgroundColor: 'white',
+            width:320,
         }}>
         <Image
-            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
-            style={{ width: 250, height: 250 }}
+            source={require('../img/Papas_300x250.png')     }
+            style={{ width: 300, height: 250 }}
         />
          <Button
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30, 
+                fontSize: 30,
+                marginRight: 10 
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
@@ -55,12 +58,13 @@ class MainMenu extends React.Component {
          <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
-            marginTop:100,
+            marginTop:65,
             backgroundColor: 'white',
+            width:320,
         }}>
         <Image
-            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
-            style={{ width: 250, height: 250 }}
+            source={require('../img/Bebidas_300x250.png')     }
+            style={{ width: 300, height: 250 }}
         />
          <Button
              titleStyle= {{
@@ -76,13 +80,11 @@ class MainMenu extends React.Component {
          <Card
         containerStyle= {{
             backgroundColor: 'white',
+            width:320,
         }}>
         <Image
-            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
-            style={{ width: 250, 
-            height: 250, 
-            
-         }}
+            source={require('../img/Nieves_300x250.png')     }
+            style={{ width: 300, height: 250 }}
         />
          <Button
              titleStyle= {{
@@ -99,12 +101,13 @@ class MainMenu extends React.Component {
          <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
-            marginTop:100,
+            marginTop:65,
             backgroundColor: 'white',
+            width:320,
         }}>
         <Image
-            source={require('../img/Frutas_Preparadas_Icon.jpg')     }
-            style={{ width: 250, height: 250 }}
+            source={require('../img/Elotes_300x250.png')     }
+            style={{ width: 300, height: 250 }}
         />
          <Button
              titleStyle= {{

@@ -23,8 +23,7 @@ export default StyleSheet.create({
       backgroundColor: '#C81315',
     },
     ContainerOne: {
-      backgroundColor: '#C81315',
-      width: 400,
+      width: 340,
     },
     image: {
       height: 400,
