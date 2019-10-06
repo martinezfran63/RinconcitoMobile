@@ -44,7 +44,7 @@ const MainNavigator = createStackNavigator({
     }),
  },
   MenuItem: {screen: MenuItem,
-    navigationOptions: () => ({
+    navigationOptions: ({ navigation }) => ({
       headerTransparent: true,
       headerTintColor: 'white',
     }),

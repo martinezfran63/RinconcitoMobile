@@ -25,11 +25,13 @@ export default StyleSheet.create({
     ContainerOne: {
       width: 340,
     },
-    menuItemsContianer: {
+    menuItemsContainer: {
       flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#C81315',
+      backgroundColor: 'white',
+    },
+    OneMenuItemContainer: {
+      backgroundColor: 'white',
+      width: '80%',
     },
     image: {
       height: 400,
@@ -60,7 +62,7 @@ export default StyleSheet.create({
       marginTop: 100,
     },
     buttonStyle1: {
-       backgroundColor:'#C81315',
+      backgroundColor:'#C81315',
     },
   });
   

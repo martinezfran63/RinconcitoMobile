@@ -1,8 +1,8 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
-import { StatusBar, Platform, StyleSheet, Text, View, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
-import { Card, Image, ListItem, Button, Icon } from 'react-native-elements'
+import { StatusBar, Image, Platform, StyleSheet, Text, View, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
+import { Card, ListItem, Button, Icon } from 'react-native-elements'
 import styles from '../styles.js';
 import listaDeFrutasPreparadas from '../data/listaDeFrutasPreparadas.js';
 import listaDeElotes from '../data/listaDeElotes.js';

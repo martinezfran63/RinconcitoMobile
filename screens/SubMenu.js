@@ -30,7 +30,7 @@ renderItem = ({ item }) => (
       color: 'white',
       rounded: false,
       size: "large",
-      source: item.avatar_url,
+      source: item.icon_url,
       title: item.name[0]
     }}
     rightTitle={item.price}
