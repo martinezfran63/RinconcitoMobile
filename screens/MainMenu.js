@@ -11,10 +11,10 @@ class MainMenu extends React.Component {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.mainContainer}>
-         <View style={styles.leftContainer}>
+         <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
-            marginTop:120,
+            marginTop:100,
             backgroundColor: 'white'
         }}>
         <Image
@@ -23,7 +23,7 @@ class MainMenu extends React.Component {
         />
          <Button
              titleStyle= {{
-                color: 'black',
+                color: 'white',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
@@ -42,7 +42,7 @@ class MainMenu extends React.Component {
         />
          <Button
              titleStyle= {{
-                color: '#C81315',
+                color: 'white',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
@@ -51,8 +51,11 @@ class MainMenu extends React.Component {
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas'}
              )} />
          </Card>
+         </View>
+         <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
+            marginTop:100,
             backgroundColor: 'white',
         }}>
         <Image
@@ -61,7 +64,7 @@ class MainMenu extends React.Component {
         />
          <Button
              titleStyle= {{
-                color: '#C81315',
+                color: 'white',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
@@ -70,12 +73,8 @@ class MainMenu extends React.Component {
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas'}
              )} />
          </Card>
-         </View>
-         <View style={styles.rightContainer}>
-
          <Card
         containerStyle= {{
-            marginTop:120,
             backgroundColor: 'white',
         }}>
         <Image
@@ -87,7 +86,7 @@ class MainMenu extends React.Component {
         />
          <Button
              titleStyle= {{
-                color: '#C81315',
+                color: 'white',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
@@ -96,8 +95,11 @@ class MainMenu extends React.Component {
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves'}
              )} />
          </Card>
+         </View>
+         <View style={styles.ContainerOne}>
          <Card
         containerStyle= {{
+            marginTop:100,
             backgroundColor: 'white',
         }}>
         <Image
@@ -106,7 +108,7 @@ class MainMenu extends React.Component {
         />
          <Button
              titleStyle= {{
-                color: '#C81315',
+                color: 'white',
                 fontFamily: 'Helvetica',
                 fontSize: 30, 
                  }}
@@ -115,7 +117,6 @@ class MainMenu extends React.Component {
              onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Etcétera'}
              )} />
          </Card>
-
          </View>
          </View>
     );
