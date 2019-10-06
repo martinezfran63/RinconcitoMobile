@@ -15,7 +15,7 @@ class MenuItem extends React.Component {
         <Text h1>{product.price}</Text>
         <Text h1>{product.description}</Text>
        <Image
-            source={require('../img/Elotes_300x250.png')     }
+            source={product.avatar_url}
             style={{ width: 300, height: 250 }}
         />
 
