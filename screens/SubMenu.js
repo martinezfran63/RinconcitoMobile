@@ -41,7 +41,7 @@ renderItem = ({ item }) => (
       }}
     bottomDivider   
     chevron
-    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam("menuParam"), { menuItem: item.name})}
+    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam("menuParam"), { menuItem: item})}
   />
 )
 
