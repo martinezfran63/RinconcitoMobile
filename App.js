@@ -10,6 +10,7 @@ import BebidasScreen from './screens/BebidasScreen.js';
 import MainMenu from './screens/MainMenu.js';
 import SubMenu from './screens/SubMenu.js';
 import Home from './screens/Home.js';
+import MenuItem from './screens/MenuItem.js';
 
 
 const MainNavigator = createStackNavigator({
@@ -29,8 +30,8 @@ const MainNavigator = createStackNavigator({
     }),
   },
   SubMenu: {screen: SubMenu,
-    navigationOptions: () => ({
-      title: `The category `,
+    navigationOptions: ({ navigation }) => ({
+      title: navigation.getParam('menuParam', 'Menu Category'),
       headerBackTitle: true,
       headerTransparent: true,
       headerTintColor: 'white',
@@ -41,7 +42,13 @@ const MainNavigator = createStackNavigator({
       headerTransparent: true,
       headerTintColor: 'white',
     }),
- }
+ },
+  MenuItem: {screen: MenuItem,
+    navigationOptions: () => ({
+      headerTransparent: true,
+      headerTintColor: 'white',
+    }),
+  }
 });
 
 const App = createAppContainer(MainNavigator);

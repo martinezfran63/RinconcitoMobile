@@ -13,7 +13,6 @@ import listaDePapas from  '../data/listaDePapas.js';
 class MainMenu extends React.Component {
 
   render() {
-    const {navigate} = this.props.navigation;
     return (
         <View style={styles.mainContainer}>
          <View style={styles.ContainerOne}>
@@ -35,7 +34,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeBebidas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Frutas Preparadas', menuList: listaDeBebidas}
              )} />
          </Card>
          <Card
@@ -56,7 +55,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDePapas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas', menuList: listaDePapas}
              )} />
          </Card>
          </View>
@@ -79,7 +78,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeBebidas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeBebidas}
              )} />
          </Card>
          <Card
@@ -99,7 +98,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeNieves}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves', menuList: listaDeNieves}
              )} />
          </Card>
          </View>
@@ -122,7 +121,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Elotes'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Bebidas', menuList: listaDeElotes}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Elotes', menuList: listaDeElotes}
              )} />
          </Card>
          </View>

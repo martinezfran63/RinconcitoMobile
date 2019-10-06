@@ -3,8 +3,6 @@ import {createStackNavigator} from 'react-navigation-stack';
 import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { ListItem } from 'react-native-elements'
-
-
 import styles from '../styles.js';
 
 class SubMenu extends React.Component {
@@ -43,7 +41,7 @@ renderItem = ({ item }) => (
       }}
     bottomDivider   
     chevron
-    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam("menuParam"))}
+    onPress={() => this.props.navigation.navigate(this.props.navigation.getParam("menuParam"), { menuItem: item.name})}
   />
 )
 
