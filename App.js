@@ -31,7 +31,7 @@ const MainNavigator = createStackNavigator({
   },
   SubMenu: {screen: SubMenu,
     navigationOptions: ({ navigation }) => ({
-      title: navigation.getParam('menuParam', 'Menu Category'),
+      title: navigation.getParam('menuTitle', 'Menu Category'),
       headerBackTitle: true,
       headerTransparent: true,
       headerTintColor: 'white',

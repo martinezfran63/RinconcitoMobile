@@ -10,7 +10,7 @@ class MenuItem extends React.Component {
     const navigation = this.props.navigation;
     const product =  navigation.getParam('menuItem');
     return (
-        <View style={styles.container_one}>
+        <View style={styles.menuItemsContianer}>
         <Text h1>{product.name}</Text>
         <Text h1>{product.price}</Text>
         <Text h1>{product.description}</Text>

@@ -34,7 +34,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Frutas Preparadas', menuList: listaDeBebidas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeFrutasPreparadas, menuTitle: 'Frutas Preparadas'}
              )} />
          </Card>
          <Card
@@ -55,7 +55,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Papas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Papas', menuList: listaDePapas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDePapas, menuTitle: 'Papas'}
              )} />
          </Card>
          </View>
@@ -78,7 +78,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeBebidas}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeBebidas, menuTitle: 'Bebidas'}
              )} />
          </Card>
          <Card
@@ -98,7 +98,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Nieves', menuList: listaDeNieves}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeNieves, menuTitle: 'Nieves'}
              )} />
          </Card>
          </View>
@@ -121,7 +121,7 @@ class MainMenu extends React.Component {
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Elotes'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Elotes', menuList: listaDeElotes}
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'MenuItem', menuList: listaDeElotes, menuTitle: 'Elotes'}
              )} />
          </Card>
          </View>

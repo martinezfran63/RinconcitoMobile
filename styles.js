@@ -25,6 +25,12 @@ export default StyleSheet.create({
     ContainerOne: {
       width: 340,
     },
+    menuItemsContianer: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#C81315',
+    },
     image: {
       height: 400,
       width: '100%',
