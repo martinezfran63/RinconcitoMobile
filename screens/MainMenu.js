@@ -116,8 +116,8 @@ class MainMenu extends React.Component {
                 fontSize: 30, 
                  }}
              buttonStyle={styles.buttonStyle1}
-             title='Etcétera'
-             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Etcétera'}
+             title='Elotes'
+             onPress={() => this.props.navigation.navigate('SubMenu', { menuParam: 'Elotes'}
              )} />
          </Card>
          </View>

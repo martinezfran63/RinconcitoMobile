@@ -1,5 +1,5 @@
 
-const listaDeEtc = [
+const listaDeElotes = [
   {
     name: 'Raspados',
     price: '$6.00',
@@ -16,4 +16,4 @@ const listaDeEtc = [
   },
 ]
 
-export default listaDeEtc;
+export default listaDeElotes;

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
 import { ListItem } from 'react-native-elements'
 import listaDeFrutasPreparadas from '../data/listaDeFrutasPreparadas.js';
-import listaDeEtc from '../data/listaDeEtc.js';
+import listaDeElotes from '../data/listaDeElotes.js';
 import styles from '../styles.js';
 
 class SubMenu extends React.Component {
