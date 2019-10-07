@@ -1,18 +1,28 @@
 
 const listaDeElotes = [
   {
-    name: 'Raspados',
-    price: '$6.00',
+    name: 'Elote en Vaso',
+    price: '$3.99',
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
-    subtitle: 'Raspados',
-    description: 'Sabores Variados'
+    subtitle: 'Elote en Vaso',
+    description: '',
+    opton: ''
   },
   {
-    name: 'Diablito con Gruta',
-    price: '$5.49',
+    name: 'Elote Chorrado',
+    price: '$8.99',
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
-    subtitle: 'Diablito con Gruta',
-    description: ''
+    subtitle: 'Elote Chorrado',
+    description: '',
+    opton: ''
+  },
+  {
+    name: 'Esquites',
+    price: '$8.99',
+    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    subtitle: 'Esquites',
+    description: '',
+    opton: ''
   },
 ]
 

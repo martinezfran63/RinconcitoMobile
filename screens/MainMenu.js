@@ -30,7 +30,7 @@ class MainMenu extends React.Component {
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30, 
+                fontSize: 25, 
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Frutas Preparadas'
@@ -50,7 +50,7 @@ class MainMenu extends React.Component {
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30,
+                fontSize: 25, 
                 marginRight: 10 
                  }}
              buttonStyle={styles.buttonStyle1}
@@ -74,7 +74,7 @@ class MainMenu extends React.Component {
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30, 
+                fontSize: 25, 
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Bebidas'
@@ -94,7 +94,7 @@ class MainMenu extends React.Component {
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30, 
+                fontSize: 25, 
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Nieves'
@@ -117,7 +117,7 @@ class MainMenu extends React.Component {
              titleStyle= {{
                 color: 'white',
                 fontFamily: 'Helvetica',
-                fontSize: 30, 
+                fontSize: 25, 
                  }}
              buttonStyle={styles.buttonStyle1}
              title='Elotes'

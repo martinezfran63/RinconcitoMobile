@@ -2,87 +2,91 @@
 const listaDeFrutasPreparadas = [
   {
     name: 'Cóctel de Fruta',
-    price: '$6.00',
+    price: '$6.99',
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Cóctel de Fruta',
-    description: 'Pepino, jícama, sandía, melón, mango, piña, papaya, chile y limón'
-  },
-  {
-    name: 'Carne Preparada',
-    price: '$5.49',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    subtitle: 'Carne Preparada',
-    description: 'Pepino, jícama, limón y salsa'
+    description: 'Pepino, jícama, sandía, melón, mango, piña, papaya, chile y limón',
+    opton: ''
   },
   {
     name: 'Vaso Loco',
-    price: '$6.70',
+    price: '$7.99',
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Vaso Loco',
-    description: 'Preparelo a su gusto con fruta, gomitas, chamoy y mas'
+    description: 'Preparelo a su gusto con fruta, gomitas, chamoy y mas',
+    opton: ''
   },
   {
     name: 'Pepihuates',
-    price: '$5.00',
+    price: '$5.99',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Pepihuates',
-    description: 'Pepino, Cacahuates Japones, jícama, limón'
+    description: 'Pepino, Cacahuates Japones, jícama, limón',
+    opton: ''
   },
   {
     name: 'Biónico',
-    price: '$6.70',
+    price: '$6.99',
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Biónico',
-    description: 'Melón, papaya, plátano, manzana, fresa, yogurt y granola'
+    description: 'Melón, papaya, plátano, manzana, fresa, yogurt y granola',
+    opton: ''
   },
   {
     name: 'Escamocha',
     price: '$5.40',
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Escamocha',
-    description: 'Sandía, melón, papaya, plátano, manzana, fresa, nieve nuez, coco y crema dulce'
+    description: 'Sandía, melón, papaya, plátano, manzana, fresa, nieve nuez, coco y crema dulce',
+    opton: ''
   },
   {
     name: 'Fruta con Miel',
     price: '$5.40',
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Fruta con Miel',
-    description: 'Plátano, manzana, fresa, melón, papaya, queso cottage, miel y nuez'
+    description: 'Plátano, manzana, fresa, melón, papaya, queso cottage, miel y nuez',
+    opton: ''
   },
   {
     name: 'Gaspacho',
-    price: '$5.40',
+    price: '$7.99',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Gaspacho',
-    description: 'Toronja, naranja, sandía, melón, papaya, pína y mango'
+    description: 'Toronja, naranja, sandía, melón, papaya, pína y mango',
+    opton: ''
   },
   {
     name: 'Postre Amore',
     price: '$5.40',
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Postre Amore',
-    description: 'Angel cake, crema, yogurt y fruta'
+    description: 'Angel cake, crema, yogurt y fruta',
+    opton: ''
   },
   {
     name: 'Fresas con Crema',
-    price: '$5.40',
+    price: '$5.99',
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Fresas con Crema',
-    description: 'Fresas y crema'
+    description: 'Fresas y crema',
+    opton: ''
   },
   {
     name: 'Bananas con Crema',
-    price: '$5.40',
+    price: '$5.99',
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Bananas con Crema',
-    description: 'Bananas con Crema'
+    description: 'Bananas con Crema',
+    opton: ''
   },
   {
     name: 'Fresas Cubiertas en Chocolate',
-    price: '$5.40',
+    price: '$2,99',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Fresas Cubiertas en Chocolate',
-    description: 'Fresas Cubiertas en Chocolate'
+    description: 'Fresas Cubiertas en Chocolate',
+    opton: ''
   },
 ]
 export default listaDeFrutasPreparadas;

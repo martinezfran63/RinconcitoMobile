@@ -1,74 +1,100 @@
 
 const listaDeNieves = [
   {
-    name: 'Banana Split',
-    price: '$6.00',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    subtitle: 'Banana Split',
-    description: ''
-  },
-  {
-    name: 'Sundae',
-    price: '$5.49',
+    name: 'Paletas',
+    price: '$2.99/3.99',
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    subtitle: 'Sundae',
-    description: 'Dos bolitas de nieve, galleta y M&M, chocolate o fresa syrup'
+    subtitle: 'Paletas',
+    description: '',
+    opton: 'Fresas con Crema, Nuez, Pinon, Chocolate, Mamey, Chicle, Arroz, Pistacho, Sandia, Cajeta, Guotaba, Mangoneaoda, Chocobanana, Cajita de fresas con crema'
   },
   {
     name: 'Cazuelita de Nieve',
-    price: '$6.70',
+    price: '$6.99',
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Cazuelita de Nieve',
-    description: ''
+    description: '',
+    opton: ''
   },
   {
     name: 'Malteadas',
     price: '$5.00',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Malteadas',
-    description: ''
+    description: '',
+    opton: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
+  },
+  {
+    name: 'Banana Split',
+    price: '$6.99',
+    icon_url: require('../img/Bebidas_300x250.png'),
+    subtitle: 'Banana Split',
+    description: '',
+    opton: ''
+  },
+  {
+    name: 'Sundae',
+    price: '$3.99',
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
+    subtitle: 'Sundae',
+    description: 'Dos bolitas de nieve, galleta y M&M, chocolate o fresa syrup',
+    opton: ''
   },
   {
     name: 'Chocobanan',
-    price: '$6.70',
+    price: '$5.99',
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Chocobanan',
-    description: ''
-  },
-  {
-    name: 'Paletas de Leche',
-    price: '$5.40',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    subtitle: 'Paletas de Leche',
-    description: ''
+    description: '',
+    opton: ''
   },
   {
     name: 'Nieves',
-    price: '$5.40',
+    price: '$1.99',
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Nieves',
-    description: ''
+    description: '',
+    opton: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
   },
   {
     name: 'Esquimales',
     price: '$5.40',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Esquimales',
-    description: ''
+    description: '',
+    opton: ''
   },
   {
     name: 'Mangoneada',
-    price: '$5.40',
+    price: '$4.50',
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Mangoneada',
-    description: ''
+    description: '',
+    opton: ''
   },
   {
     name: 'Chamango',
-    price: '$5.40',
+    price: '$6.99',
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Chamango',
-    description: ''
+    description: '',
+    opton: ''
+  },
+    {
+    name: 'Raspados',
+    price: '$6.00',
+    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    subtitle: 'Raspados',
+    description: 'Sabores Variados',
+    opton: ''
+  },
+  {
+    name: 'Diablito con Gruta',
+    price: '$5.49',
+    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    subtitle: 'Diablito con Gruta',
+    description: '',
+    opton: ''
   },
 ]
 export default listaDeNieves;

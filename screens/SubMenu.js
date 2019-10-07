@@ -23,7 +23,7 @@ renderItem = ({ item }) => (
      subtitleStyle= {{
       color: 'white',
       fontFamily: 'Helvetica',
-      fontSize: 25, 
+      fontSize: 20, 
       }}
     title={item.name}
     leftAvatar={{

@@ -12,19 +12,16 @@ class MenuItem extends React.Component {
     return (
         <View style={styles.mainItemContainer}>
 
-        
         <Text
         style= {{
           color: 'black',
           fontFamily: 'Helvetica',
           fontWeight: 'bold',
-          fontSize: 100,
+          fontSize: 50,
           marginTop:65,
           textAlign: "left",
-          textShadowColor: 'rgba(0, 0, 0, 0.75)',
-          textShadowOffset: {width: -1, height: 1},
-          textShadowRadius: 10
-          }}>{product.name}</Text>
+          }}>{product.name}
+        </Text>
 
         <Image  
             source={product.icon_url}
@@ -48,6 +45,13 @@ class MenuItem extends React.Component {
           fontFamily: 'Helvetica',
           fontSize: 25, 
           }}>Description:{br}{product.description}</Text>
+
+        <Text
+        style= {{
+          color: 'black',
+          fontFamily: 'Helvetica',
+          fontSize: 25, 
+          }}>Opciones:{br}{product.option}</Text>
         </View>
     );
   }
