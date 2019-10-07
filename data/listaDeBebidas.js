@@ -43,7 +43,7 @@ const listaDeBebidas = [
     description: ''
   },
   {
-    name: 'Chai Tea Latte (calient / frio)',
+    name: 'Chai Tea Latte',
     price: '$5.40',
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Chai Tea Latte (calient / frio)',

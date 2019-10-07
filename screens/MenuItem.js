@@ -2,19 +2,19 @@
 
 import React, { Component } from 'react';
 import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
-
 import styles from '../styles.js';
 
 class MenuItem extends React.Component {
   render() {
+    const br = `\n`;
     const navigation = this.props.navigation;
     const product =  navigation.getParam('menuItem');
     return (
-        <View style={styles.menuItemsContainer}>
+        <View style={styles.mainItemContainer}>
 
-        <Image
+        <Image  
             source={product.icon_url}
-            style={{ width: 540, height: 450, marginTop:65, }}
+            style={{ width: 540, height: 450, marginTop:65,}}
         />
 
         <Text
@@ -22,7 +22,7 @@ class MenuItem extends React.Component {
           color: 'black',
           fontFamily: 'Helvetica',
           fontWeight: 'bold',
-          fontSize: 50,
+          fontSize: 100,
           textAlign: "right",
           }}>{product.name}</Text>
 
@@ -41,10 +41,7 @@ class MenuItem extends React.Component {
           color: 'black',
           fontFamily: 'Helvetica',
           fontSize: 25, 
-          }}>{product.description}</Text>
-
-
-
+          }}>Description:{br}{product.description}</Text>
         </View>
     );
   }

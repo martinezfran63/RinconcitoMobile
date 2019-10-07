@@ -10,7 +10,7 @@ class SubMenu extends React.Component {
 keyExtractor = (item, index) => index.toString()
 
 renderItem = ({ item }) => (
-  <ListItem
+  <ListItem style={styles.listItem}
   containerStyle= {{
     backgroundColor: '#C81315',
 
@@ -27,8 +27,7 @@ renderItem = ({ item }) => (
       }}
     title={item.name}
     leftAvatar={{
-      color: 'white',
-      rounded: false,
+      rounded: true,
       size: "large",
       source: item.icon_url,
       title: item.name[0]

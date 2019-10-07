@@ -22,12 +22,13 @@ export default StyleSheet.create({
       flexDirection: 'row',
       backgroundColor: '#C81315',
     },
+    mainItemContainer: {
+      flex: 1,
+      flexDirection: 'column',
+      backgroundColor: '#C81315',
+    },
     ContainerOne: {
       width: 340,
-    },
-    menuItemsContainer: {
-      flex: 1,
-      backgroundColor: 'white',
     },
     OneMenuItemContainer: {
       backgroundColor: 'white',
@@ -60,6 +61,9 @@ export default StyleSheet.create({
     },
     flatList: {
       marginTop: 100,
+    },
+    listItem: {
+      marginTop: 20,
     },
     buttonStyle1: {
       backgroundColor:'#C81315',

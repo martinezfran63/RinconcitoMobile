@@ -15,7 +15,7 @@ const listaDePapas = [
     description: 'Pepino, jícama, límon salsa'
   },
   {
-    name: 'Papas Locas (Preparadas a su Gusto)',
+    name: 'Papas Locas',
     price: '$6.70',
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Papas Locas (Preparadas a su Gusto)',
