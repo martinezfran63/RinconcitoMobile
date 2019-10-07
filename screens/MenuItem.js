@@ -12,26 +12,32 @@ class MenuItem extends React.Component {
     return (
         <View style={styles.mainItemContainer}>
 
-        <Image  
-            source={product.icon_url}
-            style={{ width: 540, height: 450, marginTop:65,}}
-        />
-
+        
         <Text
         style= {{
           color: 'black',
           fontFamily: 'Helvetica',
           fontWeight: 'bold',
           fontSize: 100,
-          textAlign: "right",
+          marginTop:65,
+          textAlign: "left",
+          textShadowColor: 'rgba(0, 0, 0, 0.75)',
+          textShadowOffset: {width: -1, height: 1},
+          textShadowRadius: 10
           }}>{product.name}</Text>
+
+        <Image  
+            source={product.icon_url}
+            style={{ width: 540, height: 450, }}
+        />
+
 
         <Text
         style= {{
           color: 'black',
           fontFamily: 'Helvetica',
           fontSize: 45, 
-          textAlign: "right",
+          textAlign: "left",
 
           }}>{product.price}</Text>
 
