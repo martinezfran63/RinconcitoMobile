@@ -22,20 +22,46 @@ export default StyleSheet.create({
       flexDirection: 'row',
       backgroundColor: '#C81315',
     },
-    mainItemContainer: {
+    MenuItemMainContainer: {
       flex: 1,
       flexDirection: 'row',
-      backgroundColor: 'yellow',
+      backgroundColor: '#C81315',
+      borderWidth: 5,
+      borderColor: 'white',
     },
     ContainerOne: {
       width: 340,
     },
-    MenuItem: {
-      width: 500,
+    HeaderContainer: {
+      flex: 4,
+      borderWidth: 5,
+      borderColor: 'black',
+      height: 200
     },
-    OneMenuItemContainer: {
-      backgroundColor: 'white',
-      width: '80%',
+    BodyContainer: {
+      flex: 4,
+      flexDirection: 'column',
+      borderWidth: 5,
+      borderColor: 'white',
+      height: 600
+    },
+    PriceContainer: {
+      flex: 1,
+      borderWidth: 5,
+      borderColor: 'black',
+      height: 200
+    },
+    ImageContainer: {
+      flex: 5,
+      flexDirection: 'column',
+      borderWidth: 5,
+      borderColor: 'green',
+    },
+    MenuItem: {
+      flex: 2,
+      width: 512,
+      borderWidth: 0.5,
+      borderColor: 'black',
     },
     image: {
       height: 400,

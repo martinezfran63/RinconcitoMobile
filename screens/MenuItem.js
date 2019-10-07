@@ -10,58 +10,43 @@ class MenuItem extends React.Component {
     const navigation = this.props.navigation;
     const product =  navigation.getParam('menuItem');
     return (
-        <View style={styles.mainItemContainer}>
-          <View style={styles.MenuItem}>
+        <View style={styles.MenuItemMainContainer}>
 
-          <Image  
-            source={product.icon_url}
-            style={{ width: 540, height: 450, marginTop:65 }}
-          />
 
-          </View>
-          <View style={styles.MenuItem}>
-  
+        <View style={styles.HeaderContainer}>
+
           <Text
           style= {{
             color: 'black',
             fontFamily: 'Helvetica',
-            fontWeight: 'bold',
-            fontSize: 50,
-            marginTop:65,
-            textAlign: "left",
+            fontSize: 40,
+            marginTop: 65,
+            textAlign: 'left',
             }}>{product.name}
           </Text>
+          </View>
+          
 
+          
+          <View style={styles.PriceContainer}>
+          <Text
+          style= {{
+            color: 'black',
+            fontFamily: 'Helvetica',
+            fontSize: 45, 
+            marginTop:65,
+            textAlign: "right",
+            }}>{product.price}
+          </Text>
+          </View>
 
-
+          <View style={styles.BodyContainer}>
+          <Image  
+              source={product.icon_url}
+              style={{ width: 540, height: 450, marginTop:65 }} />
           </View>
 
 
-
-
-        <Text
-        style= {{
-          color: 'black',
-          fontFamily: 'Helvetica',
-          fontSize: 45, 
-          textAlign: "left",
-
-          }}>{product.price}</Text>
-
-
-        <Text
-        style= {{
-          color: 'black',
-          fontFamily: 'Helvetica',
-          fontSize: 25, 
-          }}>Description:{br}{product.description}</Text>
-
-        <Text
-        style= {{
-          color: 'black',
-          fontFamily: 'Helvetica',
-          fontSize: 25, 
-          }}>Opciones:{br}{product.option}</Text>
         </View>
     );
   }
