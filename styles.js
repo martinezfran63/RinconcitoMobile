@@ -24,11 +24,14 @@ export default StyleSheet.create({
     },
     mainItemContainer: {
       flex: 1,
-      flexDirection: 'column',
-      backgroundColor: '#C81315',
+      flexDirection: 'row',
+      backgroundColor: 'yellow',
     },
     ContainerOne: {
       width: 340,
+    },
+    MenuItem: {
+      width: 500,
     },
     OneMenuItemContainer: {
       backgroundColor: 'white',

@@ -1,10 +1,10 @@
 {
   "expoServerPort": 19000,
-  "packagerPort": 19002,
-  "packagerPid": 58832,
+  "packagerPort": 19003,
+  "packagerPid": 65900,
   "expoServerNgrokUrl": "https://hj-2ed.martinezfran63.rinconcitomobile.exp.direct",
   "packagerNgrokUrl": "https://packager.hj-2ed.martinezfran63.rinconcitomobile.exp.direct",
-  "ngrokPid": 58841,
-  "devToolsPort": 19003,
+  "ngrokPid": 65921,
+  "devToolsPort": 19004,
   "webpackServerPort": null
 }

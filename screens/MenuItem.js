@@ -11,22 +11,32 @@ class MenuItem extends React.Component {
     const product =  navigation.getParam('menuItem');
     return (
         <View style={styles.mainItemContainer}>
+          <View style={styles.MenuItem}>
 
-        <Text
-        style= {{
-          color: 'black',
-          fontFamily: 'Helvetica',
-          fontWeight: 'bold',
-          fontSize: 50,
-          marginTop:65,
-          textAlign: "left",
-          }}>{product.name}
-        </Text>
-
-        <Image  
+          <Image  
             source={product.icon_url}
-            style={{ width: 540, height: 450, }}
-        />
+            style={{ width: 540, height: 450, marginTop:65 }}
+          />
+
+          </View>
+          <View style={styles.MenuItem}>
+  
+          <Text
+          style= {{
+            color: 'black',
+            fontFamily: 'Helvetica',
+            fontWeight: 'bold',
+            fontSize: 50,
+            marginTop:65,
+            textAlign: "left",
+            }}>{product.name}
+          </Text>
+
+
+
+          </View>
+
+
 
 
         <Text
