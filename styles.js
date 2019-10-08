@@ -20,14 +20,23 @@ export default StyleSheet.create({
     mainContainer: {
       flex: 1,
       flexDirection: 'row',
-      backgroundColor: '#C81315',
+      backgroundColor: "white",
     },
     ContainerOne: {
       width: 340,
+      shadowColor: "#000",
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.32,
+      shadowRadius: 5.46,
+      
+      elevation: 9,
     },
     MenuItemMainContainer: {
       flex: 1,
-      backgroundColor: '#C81315',
+      backgroundColor: "white",
     },
     HeaderContainer: {
       flex: 1,
@@ -37,25 +46,29 @@ export default StyleSheet.create({
     },
     TitleContainer: {
       flex: 7,
-      marginTop: 20,
-      shadowColor: '#000000',
+      marginTop: 40,
+      shadowColor: "#000",
       shadowOffset: {
         width: 0,
-        height: 3
+        height: 2,
       },
-      shadowRadius: 5,
-      shadowOpacity: 1.0
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      
+      elevation: 5,
     },
     PriceContainer: {
       flex: 1,
       marginTop: 20,
-    shadowColor: '#000000',
-    shadowOffset: {
-      width: 0,
-      height: 3
-    },
-    shadowRadius: 5,
-    shadowOpacity: 1.0
+      shadowColor: "#000",
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.32,
+      shadowRadius: 5.46,
+
+      elevation: 9,
     },
     BodyContainer: {
       flex: 3,
@@ -66,13 +79,15 @@ export default StyleSheet.create({
       alignItems: 'center',
       flex: 1,
       flexDirection: 'row',
-      shadowColor: '#000000',
-    shadowOffset: {
-      width: 0,
-      height: 3
-    },
-    shadowRadius: 5,
-    shadowOpacity: 1.0
+      shadowColor: "#000",
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.32,
+      shadowRadius: 5.46,
+      
+      elevation: 9,
     },
     RightContainer: {
       flex: 1,
@@ -111,6 +126,19 @@ export default StyleSheet.create({
     },
     listItem: {
       marginTop: 20,
+    },
+    price: {
+      marginLeft: 20,
+      marginRight: 20,
+      shadowColor: "#000",
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      
+      elevation: 5,
     },
     buttonStyle1: {
       backgroundColor:'#C81315',

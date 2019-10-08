@@ -26,7 +26,10 @@ const MainNavigator = createStackNavigator({
       title: `Seleccionar Menu`,
       headerBackTitle: true,
       headerTransparent: true,
-      headerTintColor: 'white',
+      headerTintColor: '#C81315',
+      headerTitleStyle: {
+        fontSize: 20,
+      }
     }),
   },
   SubMenu: {screen: SubMenu,
@@ -34,7 +37,10 @@ const MainNavigator = createStackNavigator({
       title: navigation.getParam('menuTitle', 'Menu Category'),
       headerBackTitle: true,
       headerTransparent: true,
-      headerTintColor: 'white',
+      headerTintColor: '#C81315',
+      headerTitleStyle: {
+        fontSize: 20,
+      }
     }),
   },
   Bebidas: {screen: BebidasScreen,
@@ -46,7 +52,10 @@ const MainNavigator = createStackNavigator({
   MenuItem: {screen: MenuItem,
     navigationOptions: ({ navigation }) => ({
       headerTransparent: true,
-      headerTintColor: 'white',
+      headerTintColor: '#C81315',
+      headerTitleStyle: {
+        fontSize: 20,
+      }
     }),
   }
 });

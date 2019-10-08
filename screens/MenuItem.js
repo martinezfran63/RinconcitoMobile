@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Text, View, Image} from "react-native";
+import { Text, View, Image } from "react-native";
+import { Card, ListItem, Button, Icon } from "react-native-elements";
 import styles from "../styles.js";
 
 class MenuItem extends React.Component {
@@ -11,31 +12,20 @@ class MenuItem extends React.Component {
       <View style={styles.MenuItemMainContainer}>
         <View style={styles.HeaderContainer}>
           <View style={styles.TitleContainer}>
-            <Text
-              style={{
-                color: "white",
-                fontFamily: "Helvetica",
-                fontSize: 55,
-                marginTop: 30,
-                textAlign: "left"
+            <Card
+              title={product.name}
+              containerStyle={{
+                backgroundColor: "white"
               }}
-            >
-              {product.name}
-            </Text>
-          </View>
-
-          <View style={styles.PriceContainer}>
-            <Text
-              style={{
-                color: "white",
-                fontFamily: "Helvetica",
-                fontSize: 45,
-                marginTop: 30,
-                textAlign: "right"
+              titleStyle={{
+                color: "#C81315",
+                fontSize: 50,
+                textAlign: "center"
               }}
-            >
-              {product.price}
-            </Text>
+              dividerStyle={{
+                backgroundColor: "white"
+              }}
+            ></Card>
           </View>
         </View>
         <View style={styles.BodyContainer}>
@@ -46,33 +36,97 @@ class MenuItem extends React.Component {
                 width: 480,
                 height: 400,
                 position: "absolute",
-                padding: 20,
+                padding: 20
               }}
             />
           </View>
 
           <View style={styles.RightContainer}>
-            <Text
-              style={{
-                color: "white",
+            <ListItem
+              style={styles.price}
+              containerStyle={{
+                backgroundColor: "white",
+                shadowColor: "#000",
+                shadowOffset: {
+                  width: 0,
+                  height: 4,
+                },
+                shadowOpacity: 0.32,
+                shadowRadius: 5.46,
+                
+                elevation: 9,
+              }}
+              titleStyle={{
+                color: "#C81315",
+                fontSize: 30,
                 fontFamily: "Helvetica",
-                fontSize: 50
+              }}
+              title="Precio"
+              rightTitle={product.price}
+              rightTitleStyle={{
+                color: "#282828",
+                fontSize: 25,
+                fontWeight: "bold",
+              }}
+            />
+            <Card
+              title="Descripción"
+              containerStyle={{
+                backgroundColor: "white",
+                shadowColor: "#000",
+                shadowOffset: {
+                  width: 0,
+                  height: 4,
+                },
+                shadowOpacity: 0.32,
+                shadowRadius: 5.46,
+                
+                elevation: 9,
+              }}
+              titleStyle={{
+                color: "#C81315",
+                fontSize: 25
               }}
             >
-              Description:{br}
-              {product.description}
-            </Text>
-
-            <Text
-              style={{
-                color: "white",
-                fontFamily: "Helvetica",
-                fontSize: 50
+              <Text
+                style={{
+                  color: "#282828",
+                  fontSize: 20,
+                  textAlign: "center"
+                }}
+              >
+                {product.description}
+              </Text>
+            </Card>
+            <Card
+              title="Opciones"
+              containerStyle={{
+                backgroundColor: "white",
+                shadowColor: "#000",
+                shadowOffset: {
+                  width: 0,
+                  height: 4,
+                },
+                shadowOpacity: 0.32,
+                shadowRadius: 5.46,
+                
+                elevation: 9,
+              }}
+              titleStyle={{
+                color: "#C81315",
+                fontSize: 25
               }}
             >
-              Opciones:{br}
-              {product.option}
-            </Text>
+              <Text
+                style={{
+                  color: "#282828",
+                  fontSize: 20,
+                  textAlign: "center"
+                }}
+              >
+                {product.option}
+              </Text>
+            </Card>
           </View>
         </View>
       </View>

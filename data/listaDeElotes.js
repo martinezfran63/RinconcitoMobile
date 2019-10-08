@@ -6,7 +6,7 @@ const listaDeElotes = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Elote en Vaso',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Elote Chorrado',
@@ -14,7 +14,7 @@ const listaDeElotes = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Elote Chorrado',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Esquites',
@@ -22,7 +22,7 @@ const listaDeElotes = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Esquites',
     description: '',
-    opton: ''
+    option: ''
   },
 ]
 

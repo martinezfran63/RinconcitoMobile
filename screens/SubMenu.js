@@ -15,6 +15,7 @@ import {
 } from "react-native";
 import { ListItem } from "react-native-elements";
 import styles from "../styles.js";
+import rinconctio from "../img/rinconcito_logo.png";
 
 class SubMenu extends React.Component {
   keyExtractor = (item, index) => index.toString();
@@ -23,28 +24,28 @@ class SubMenu extends React.Component {
     <ListItem
       style={styles.listItem}
       containerStyle={{
-        backgroundColor: "#C81315"
+
       }}
       titleStyle={{
-        color: "white",
+        color: "#282828",
         fontFamily: "Helvetica",
         fontSize: 25
       }}
       subtitleStyle={{
-        color: "white",
+        color: "black",
         fontFamily: "Helvetica",
         fontSize: 20
       }}
       title={item.name}
       leftAvatar={{
-        rounded: true,
+        rounded: false,
         size: "large",
         source: item.icon_url,
         title: item.name[0]
       }}
       rightTitle={item.price}
       rightTitleStyle={{
-        color: "white",
+        color: "#484848",
         fontFamily: "Helvetica",
         fontSize: 20
       }}

@@ -6,7 +6,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Monster Preparado',
     description: 'Monster Preparado',
-    opton: ''
+    option: ''
   },
   {
     name: 'Aguas Frescas',
@@ -14,7 +14,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Aguas Frescas',
     description: 'Aguas Frescas',
-    opton: 'Jamaca, Horchata, Toronada, Sandia, Melon, Pepino, Mango, Limon, Pina, Frutas Jicama, Guamoboro, Kombuchoa, Rompope, Palmita'
+    option: 'Jamaca, Horchata, Toronada, Sandia, Melon, Pepino, Mango, Limon, Pina, Frutas Jicama, Guamoboro, Kombuchoa, Rompope, Palmita'
   },
   {
     name: 'Clamato Preparado',
@@ -22,7 +22,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Clamato Preparado',
     description: 'Clamato con salsa especial servido con camarón y carne seca (se puede agregar Vitamina B-12 o Ginseng)',
-    opton: ''
+    option: ''
   },
   {
     name: 'Michelitas',
@@ -30,7 +30,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Michelitas',
     description: 'Agua mineral preparado con clamato',
-    opton: ''
+    option: ''
   },
   {
     name: 'Mojitos',
@@ -38,7 +38,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Mojitos',
     description: 'De Piña, mango, naranja, fresa con mora azul o kiwi con mora azul',
-    opton: ''
+    option: ''
   },
   {
     name: 'Sangria Preparada',
@@ -46,7 +46,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Sangria Preparada',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Caipirinha',
@@ -54,7 +54,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Caipirinha',
     description: 'Limonada Brasilena',
-    opton: ''
+    option: ''
   },
   {
     name: 'Green Tea',
@@ -62,7 +62,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Green Tea',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Chai Tea Latte',
@@ -70,7 +70,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Chai Tea Latte (calient / frio)',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Green Tea Matcha',
@@ -78,7 +78,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Green Tea Matcha',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Capuchino',
@@ -86,7 +86,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Capuchino',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Raspados',
@@ -94,7 +94,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Raspados',
     description: 'Sabores Variados',
-    opton: 'Pina Coloada, Tamarindo, Mango, Coco, Fresa, Nuez, Pina, '
+    option: 'Pina Coloada, Tamarindo, Mango, Coco, Fresa, Nuez, Pina, '
   },
   {
     name: 'Diablito con Gruta',
@@ -102,7 +102,7 @@ const listaDeBebidas = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Diablito con Gruta',
     description: '',
-    opton: ''
+    option: ''
   },
 ]
 export default listaDeBebidas;

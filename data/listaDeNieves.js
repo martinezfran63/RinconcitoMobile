@@ -6,7 +6,7 @@ const listaDeNieves = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Paletas',
     description: '',
-    opton: 'Fresas con Crema, Nuez, Pinon, Chocolate, Mamey, Chicle, Arroz, Pistacho, Sandia, Cajeta, Guotaba, Mangoneaoda, Chocobanana, Cajita de fresas con crema'
+    option: 'Fresas con Crema, Nuez, Pinon, Chocolate, Mamey, Chicle, Arroz, Pistacho, Sandia, Cajeta, Guotaba, Mangoneaoda, Chocobanana, Cajita de fresas con crema'
   },
   {
     name: 'Cazuelita de Nieve',
@@ -14,7 +14,7 @@ const listaDeNieves = [
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Cazuelita de Nieve',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Malteadas',
@@ -22,7 +22,7 @@ const listaDeNieves = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Malteadas',
     description: '',
-    opton: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
+    option: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
   },
   {
     name: 'Banana Split',
@@ -30,7 +30,7 @@ const listaDeNieves = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Banana Split',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Sundae',
@@ -38,7 +38,7 @@ const listaDeNieves = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Sundae',
     description: 'Dos bolitas de nieve, galleta y M&M, chocolate o fresa syrup',
-    opton: ''
+    option: ''
   },
   {
     name: 'Chocobanan',
@@ -46,7 +46,7 @@ const listaDeNieves = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Chocobanan',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Nieves',
@@ -54,7 +54,7 @@ const listaDeNieves = [
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Nieves',
     description: '',
-    opton: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
+    option: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
   },
   {
     name: 'Esquimales',
@@ -62,7 +62,7 @@ const listaDeNieves = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Esquimales',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Mangoneada',
@@ -70,7 +70,7 @@ const listaDeNieves = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Mangoneada',
     description: '',
-    opton: ''
+    option: ''
   },
   {
     name: 'Chamango',
@@ -78,7 +78,7 @@ const listaDeNieves = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Chamango',
     description: '',
-    opton: ''
+    option: ''
   },
     {
     name: 'Raspados',
@@ -86,7 +86,7 @@ const listaDeNieves = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Raspados',
     description: 'Sabores Variados',
-    opton: ''
+    option: ''
   },
   {
     name: 'Diablito con Gruta',
@@ -94,7 +94,7 @@ const listaDeNieves = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Diablito con Gruta',
     description: '',
-    opton: ''
+    option: ''
   },
 ]
 export default listaDeNieves;

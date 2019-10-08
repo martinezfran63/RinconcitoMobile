@@ -6,7 +6,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Cóctel de Fruta',
     description: 'Pepino, jícama, sandía, melón, mango, piña, papaya, chile y limón',
-    opton: ''
+    option: ''
   },
   {
     name: 'Vaso Loco',
@@ -14,7 +14,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Vaso Loco',
     description: 'Preparelo a su gusto con fruta, gomitas, chamoy y mas',
-    opton: ''
+    option: ''
   },
   {
     name: 'Pepihuates',
@@ -30,7 +30,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Biónico',
     description: 'Melón, papaya, plátano, manzana, fresa, yogurt y granola',
-    opton: ''
+    option: ''
   },
   {
     name: 'Escamocha',
@@ -38,7 +38,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Escamocha',
     description: 'Sandía, melón, papaya, plátano, manzana, fresa, nieve nuez, coco y crema dulce',
-    opton: ''
+    option: ''
   },
   {
     name: 'Fruta con Miel',
@@ -46,7 +46,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Nieves_300x250.png'),
     subtitle: 'Fruta con Miel',
     description: 'Plátano, manzana, fresa, melón, papaya, queso cottage, miel y nuez',
-    opton: ''
+    option: ''
   },
   {
     name: 'Gaspacho',
@@ -54,7 +54,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Gaspacho',
     description: 'Toronja, naranja, sandía, melón, papaya, pína y mango',
-    opton: ''
+    option: ''
   },
   {
     name: 'Postre Amore',
@@ -62,7 +62,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Bebidas_300x250.png'),
     subtitle: 'Postre Amore',
     description: 'Angel cake, crema, yogurt y fruta',
-    opton: ''
+    option: ''
   },
   {
     name: 'Fresas con Crema',
@@ -70,7 +70,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Fresas con Crema',
     description: 'Fresas y crema',
-    opton: ''
+    option: ''
   },
   {
     name: 'Bananas con Crema',
@@ -78,7 +78,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
     subtitle: 'Bananas con Crema',
     description: 'Bananas con Crema',
-    opton: ''
+    option: ''
   },
   {
     name: 'Fresas Cubiertas en Chocolate',
@@ -86,7 +86,7 @@ const listaDeFrutasPreparadas = [
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Fresas Cubiertas en Chocolate',
     description: 'Fresas Cubiertas en Chocolate',
-    opton: ''
+    option: ''
   },
 ]
 export default listaDeFrutasPreparadas;
