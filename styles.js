@@ -27,52 +27,61 @@ export default StyleSheet.create({
     },
     MenuItemMainContainer: {
       flex: 1,
-      backgroundColor: 'white',
-      borderWidth: 5,
-      borderColor: 'white',
+      backgroundColor: '#C81315',
     },
     HeaderContainer: {
       flex: 1,
       flexDirection: "row",
-      backgroundColor: 'pink',
-      borderWidth: 5,
-      borderColor: 'yellow',
+      margin: 20,
+      padding: 10,
     },
-    Title: {
-      flex: 1,
-      borderWidth: 5,
-      borderColor: 'yellow',
-
-    },
-    BodyContainer: {
-      flex: 1,
-
-      borderWidth: 5,
-      borderColor: 'red',
+    TitleContainer: {
+      flex: 3,
+      marginTop: 20,
+      shadowColor: '#000000',
+      shadowOffset: {
+        width: 0,
+        height: 3
+      },
+      shadowRadius: 5,
+      shadowOpacity: 1.0
     },
     PriceContainer: {
       flex: 1,
-      borderWidth: 5,
-
-      borderColor: 'pink',
- 
+      marginTop: 20,
+            shadowColor: '#000000',
+    shadowOffset: {
+      width: 0,
+      height: 3
+    },
+    shadowRadius: 5,
+    shadowOpacity: 1.0
+    },
+    BodyContainer: {
+      flex: 3,
+      flexDirection: "row",
     },
     ImageContainer: {
-      flex: 5,
+      flex: 1,
       flexDirection: 'row',
-      borderWidth: 5,
-      borderColor: 'blue',
+      shadowColor: '#000000',
+    shadowOffset: {
+      width: 0,
+      height: 3
+    },
+    shadowRadius: 5,
+    shadowOpacity: 1.0
+    },
+    RightContainer: {
+      flex: 1,
     },
     MenuItem: {
       flex: 2,
       width: 512,
-      borderWidth: 0.5,
-      borderColor: 'black',
     },
     image: {
       height: 400,
       width: '100%',
-      
     },
     fullImageStyle: {
       justifyContent: 'center',

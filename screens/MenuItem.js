@@ -11,6 +11,7 @@ import {
   Modal,
   Linking
 } from "react-native";
+
 import styles from "../styles.js";
 
 class MenuItem extends React.Component {
@@ -21,13 +22,13 @@ class MenuItem extends React.Component {
     return (
       <View style={styles.MenuItemMainContainer}>
         <View style={styles.HeaderContainer}>
-          <View style={styles.HeaderContainer}>
+          <View style={styles.TitleContainer}>
             <Text
               style={{
-                color: "black",
+                color: "white",
                 fontFamily: "Helvetica",
-                fontSize: 40,
-                marginTop: 65,
+                fontSize: 60,
+                marginTop: 30,
                 textAlign: "left"
               }}
             >
@@ -38,10 +39,10 @@ class MenuItem extends React.Component {
           <View style={styles.PriceContainer}>
             <Text
               style={{
-                color: "black",
+                color: "white",
                 fontFamily: "Helvetica",
                 fontSize: 45,
-                marginTop: 65,
+                marginTop: 30,
                 textAlign: "right"
               }}
             >
@@ -49,12 +50,42 @@ class MenuItem extends React.Component {
             </Text>
           </View>
         </View>
+        <View style={styles.BodyContainer}>
+          <View style={styles.ImageContainer}>
+            <Image
+              source={product.icon_url}
+              style={{
+                width: 480,
+                height: 400,
+                position: "absolute",
+                bottom: 0
+              }}
+            />
+          </View>
 
-        <View style={styles.ImageContainer}>
-          <Image
-            source={product.icon_url}
-            style={{ width: 540, height: 450, marginTop: 65 }}
-          />
+          <View style={styles.RightContainer}>
+            <Text
+              style={{
+                color: "white",
+                fontFamily: "Helvetica",
+                fontSize: 50
+              }}
+            >
+              Description:{br}
+              {product.description}
+            </Text>
+
+            <Text
+              style={{
+                color: "white",
+                fontFamily: "Helvetica",
+                fontSize: 50
+              }}
+            >
+              Opciones:{br}
+              {product.option}
+            </Text>
+          </View>
         </View>
       </View>
     );
