@@ -82,7 +82,7 @@ const listaDeFrutasPreparadas = [
   },
   {
     name: 'Fresas Cubiertas en Chocolate',
-    price: '$2,99',
+    price: '$2.99',
     icon_url: require('../img/Papas_300x250.png'),
     subtitle: 'Fresas Cubiertas en Chocolate',
     description: 'Fresas Cubiertas en Chocolate',

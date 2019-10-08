@@ -36,7 +36,7 @@ export default StyleSheet.create({
       padding: 10,
     },
     TitleContainer: {
-      flex: 3,
+      flex: 7,
       marginTop: 20,
       shadowColor: '#000000',
       shadowOffset: {
@@ -49,7 +49,7 @@ export default StyleSheet.create({
     PriceContainer: {
       flex: 1,
       marginTop: 20,
-            shadowColor: '#000000',
+    shadowColor: '#000000',
     shadowOffset: {
       width: 0,
       height: 3
@@ -62,6 +62,8 @@ export default StyleSheet.create({
       flexDirection: "row",
     },
     ImageContainer: {
+      justifyContent: 'center',
+      alignItems: 'center',
       flex: 1,
       flexDirection: 'row',
       shadowColor: '#000000',
@@ -74,6 +76,7 @@ export default StyleSheet.create({
     },
     RightContainer: {
       flex: 1,
+      marginTop: 60,
     },
     MenuItem: {
       flex: 2,

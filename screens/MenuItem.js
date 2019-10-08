@@ -1,17 +1,5 @@
 import React, { Component } from "react";
-import {
-  StatusBar,
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableOpacity,
-  FlatList,
-  Modal,
-  Linking
-} from "react-native";
-
+import { Text, View, Image} from "react-native";
 import styles from "../styles.js";
 
 class MenuItem extends React.Component {
@@ -27,7 +15,7 @@ class MenuItem extends React.Component {
               style={{
                 color: "white",
                 fontFamily: "Helvetica",
-                fontSize: 60,
+                fontSize: 55,
                 marginTop: 30,
                 textAlign: "left"
               }}
@@ -58,7 +46,7 @@ class MenuItem extends React.Component {
                 width: 480,
                 height: 400,
                 position: "absolute",
-                bottom: 0
+                padding: 20,
               }}
             />
           </View>
