@@ -1,12 +1,5 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import React, { Component } from 'react';
-import { StatusBar, Platform, StyleSheet, Text, View, Image, TouchableOpacity, FlatList, Modal, Linking } from 'react-native';
-import { Button } from 'react-native-elements';
-import GallerySwiper from "react-native-gallery-swiper";
-import { ListItem } from 'react-native-elements'
-import listaDeFrutasPreparadas from './data/listaDeFrutasPreparadas.js';
-import BebidasScreen from './screens/BebidasScreen.js';
 import MainMenu from './screens/MainMenu.js';
 import SubMenu from './screens/SubMenu.js';
 import Home from './screens/Home.js';
@@ -23,8 +16,8 @@ const MainNavigator = createStackNavigator({
   },
   MainMenu: {screen: MainMenu,
     navigationOptions: () => ({
-      title: `Seleccionar Menu`,
-      headerBackTitle: true,
+      title: `Menu`,
+      headerBackTitle: null,
       headerTransparent: true,
       headerTintColor: '#C81315',
       headerTitleStyle: {
@@ -35,7 +28,7 @@ const MainNavigator = createStackNavigator({
   SubMenu: {screen: SubMenu,
     navigationOptions: ({ navigation }) => ({
       title: navigation.getParam('menuTitle', 'Menu Category'),
-      headerBackTitle: true,
+      headerBackTitle: null,
       headerTransparent: true,
       headerTintColor: '#C81315',
       headerTitleStyle: {
@@ -43,18 +36,15 @@ const MainNavigator = createStackNavigator({
       }
     }),
   },
-  Bebidas: {screen: BebidasScreen,
-    navigationOptions: () => ({
-      headerTransparent: true,
-      headerTintColor: 'white',
-    }),
- },
   MenuItem: {screen: MenuItem,
     navigationOptions: ({ navigation }) => ({
+      title: navigation.getParam("menuItemName", []),
+      headerBackTitle: null,
       headerTransparent: true,
       headerTintColor: '#C81315',
+      headerStyle: {height: 100},
       headerTitleStyle: {
-        fontSize: 20,
+        fontSize: 60,
       }
     }),
   }

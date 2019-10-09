@@ -1,17 +1,7 @@
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
 import React, { Component } from "react";
 import {
-  StatusBar,
-  Platform,
-  StyleSheet,
-  Text,
   View,
   Image,
-  TouchableOpacity,
-  FlatList,
-  Modal,
-  Linking
 } from "react-native";
 import { Button } from "react-native-elements";
 import styles from "../styles.js";

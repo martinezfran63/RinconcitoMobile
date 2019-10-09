@@ -1,5 +1,3 @@
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
 import React, { Component } from "react";
 import {
   StatusBar,
@@ -50,11 +48,12 @@ class SubMenu extends React.Component {
         fontSize: 20
       }}
       bottomDivider
+      topDivider
       chevron
       onPress={() =>
         this.props.navigation.navigate(
           this.props.navigation.getParam("menuParam"),
-          { menuItem: item }
+          { menuItem: item, menuItemName: item.name }
         )
       }
     />

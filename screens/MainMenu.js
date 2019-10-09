@@ -1,17 +1,7 @@
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
 import React, { Component } from "react";
 import {
-  StatusBar,
   Image,
-  Platform,
-  StyleSheet,
-  Text,
   View,
-  TouchableOpacity,
-  FlatList,
-  Modal,
-  Linking
 } from "react-native";
 import { Card, ListItem, Button, Icon } from "react-native-elements";
 import styles from "../styles.js";
@@ -28,7 +18,7 @@ class MainMenu extends React.Component {
         <View style={styles.ContainerOne}>
           <Card
             containerStyle={{
-              marginTop: 65,
+              marginTop: 70,
               backgroundColor: "white",
               width: 320
             }}
@@ -86,7 +76,7 @@ class MainMenu extends React.Component {
         <View style={styles.ContainerOne}>
           <Card
             containerStyle={{
-              marginTop: 65,
+              marginTop: 70,
               backgroundColor: "white",
               width: 320
             }}
@@ -143,7 +133,7 @@ class MainMenu extends React.Component {
         <View style={styles.ContainerOne}>
           <Card
             containerStyle={{
-              marginTop: 65,
+              marginTop: 70,
               backgroundColor: "white",
               width: 320
             }}

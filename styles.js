@@ -122,13 +122,12 @@ export default StyleSheet.create({
       position: 'absolute',
     },
     flatList: {
-      marginTop: 100,
+      marginTop: 80,
     },
     listItem: {
-      marginTop: 20,
     },
     price: {
-      marginLeft: 20,
+      marginLeft: 10,
       marginRight: 20,
       shadowColor: "#000",
       shadowOffset: {
