@@ -102,7 +102,7 @@ const listaDeBebidas = [
   {
     name: 'Raspados',
     price: '$6.00',
-    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     image_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Raspados',
     description: 'Sabores Variados',
@@ -111,7 +111,7 @@ const listaDeBebidas = [
   {
     name: 'Diablito con Gruta',
     price: '$5.49',
-    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     image_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Diablito con Gruta',
     description: '',

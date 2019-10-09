@@ -3,10 +3,19 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Cóctel de Fruta',
     price: '$6.99',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
+    image_url: require('../img/Frutas_Preparadas.png'),
     subtitle: 'Cóctel de Fruta',
     description: 'Pepino, jícama, sandía, melón, mango, piña, papaya, chile y limón',
+    option: ''
+  },
+  {
+    name: 'Pina Loca',
+    price: '$7.99',
+    icon_url: require('../img/Pina_Loca_300x250.png'),
+    image_url: require('../img/Pina_Loca.png'),
+    subtitle: 'Pina Loca',
+    description: 'Preparelo a su gusto con fruta, gomitas, chamoy y mas',
     option: ''
   },
   {
@@ -48,8 +57,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Fruta con Miel',
     price: '$5.40',
-    icon_url: require('../img/Nieves_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Fruta_con_Miel.png'),
+    image_url: require('../img/Fruta_con_Miel_1280x800.png'),
     subtitle: 'Fruta con Miel',
     description: 'Plátano, manzana, fresa, melón, papaya, queso cottage, miel y nuez',
     option: ''
@@ -84,7 +93,7 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Bananas con Crema',
     price: '$5.99',
-    icon_url: require('../img/Frutas_Preparadas_Icon.jpg'),
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
     image_url: require('../img/Frutas_Preparadas_300x250.png'),
     subtitle: 'Bananas con Crema',
     description: 'Bananas con Crema',

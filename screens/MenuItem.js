@@ -12,8 +12,8 @@ class MenuItem extends React.Component {
       <Image 
         source={product.image_url}
         style={{
-          width: 576,
-          height: 720,
+          width: 1280,
+          height: 800,
           position: "absolute",
         }}
        />
