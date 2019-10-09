@@ -9,6 +9,14 @@ class MenuItem extends React.Component {
     const product = navigation.getParam("menuItem");
     return (
       <View style={styles.MenuItemMainContainer}>
+      <Image 
+        source={product.image_url}
+        style={{
+          width: 576,
+          height: 720,
+          position: "absolute",
+        }}
+       />
         <View style={styles.HeaderContainer}>
           <View style={styles.TitleContainer}>
             
@@ -16,15 +24,6 @@ class MenuItem extends React.Component {
         </View>
         <View style={styles.BodyContainer}>
           <View style={styles.ImageContainer}>
-            <Image
-              source={product.icon_url}
-              style={{
-                width: 480,
-                height: 400,
-                position: "absolute",
-                padding: 20
-              }}
-            />
           </View>
 
           <View style={styles.RightContainer}>
@@ -42,8 +41,8 @@ class MenuItem extends React.Component {
                 
                 elevation: 9,
               }}
-              title={product.price}
-              titleStyle={{
+              rightTitle={product.price}
+              rightTitleStyle={{
                 color: "#282828",
                 fontSize: 40,
                 fontWeight: "bold",
@@ -69,7 +68,7 @@ class MenuItem extends React.Component {
                   color: "#C81315",
                   fontSize: 25,
                   fontWeight: "bold",
-                  textAlign: "left"
+                  textAlign: "right"
                 }}
               >
                 Descripción
@@ -79,20 +78,20 @@ class MenuItem extends React.Component {
                 style={{
                   color: "#282828",
                   fontSize: 20,
-                  textAlign: "left"
+                  textAlign: "right"
                 }}
               >
                 {product.description}
               </Text>
               
-              <Divider style={{ backgroundColor: 'black', margin:10, }} />
+              <Divider style={{ backgroundColor: 'white', margin:20, }} />
               
               <Text
                 style={{
                   color: "#C81315",
                   fontSize: 25,
                   fontWeight: "bold",
-                  textAlign: "left"
+                  textAlign: "right"
                 }}
               >
                 Opciones
@@ -102,7 +101,7 @@ class MenuItem extends React.Component {
                 style={{
                   color: "#282828",
                   fontSize: 20,
-                  textAlign: "left"
+                  textAlign: "right"
                 }}
               >
                 {product.option}

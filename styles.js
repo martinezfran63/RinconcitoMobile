@@ -91,7 +91,6 @@ export default StyleSheet.create({
     },
     RightContainer: {
       flex: 1,
-      marginTop: 60,
     },
     MenuItem: {
       flex: 2,
@@ -122,7 +121,7 @@ export default StyleSheet.create({
       position: 'absolute',
     },
     flatList: {
-      marginTop: 80,
+      marginTop: 70,
     },
     listItem: {
     },

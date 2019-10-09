@@ -45,6 +45,7 @@ const MainNavigator = createStackNavigator({
       headerStyle: {height: 100},
       headerTitleStyle: {
         fontSize: 60,
+        position: 'absolute', right: 0,
       }
     }),
   }
