@@ -18,16 +18,13 @@ class MenuItem extends React.Component {
         }}
        />
         <View style={styles.HeaderContainer}>
+          
           <View style={styles.TitleContainer}>
             
           </View>
-        </View>
-        <View style={styles.BodyContainer}>
-          <View style={styles.ImageContainer}>
-          </View>
 
-          <View style={styles.RightContainer}>
-            <ListItem
+          <View style={styles.PriceContainer}>
+          <ListItem
               style={styles.price}
               containerStyle={{
                 backgroundColor: "#f2f2f2",
@@ -49,6 +46,14 @@ class MenuItem extends React.Component {
               }}
             />
            
+          </View>
+        </View>
+        <View style={styles.BodyContainer}>
+          <View style={styles.ImageContainer}>
+          </View>
+
+          <View style={styles.RightContainer}>
+
             <Card
               containerStyle={{
                 backgroundColor: "#f2f2f2",
@@ -84,7 +89,7 @@ class MenuItem extends React.Component {
                 {product.description}
               </Text>
               
-              <Divider style={{ backgroundColor: 'white', margin:20, }} />
+              <Divider style={{ backgroundColor: '#f2f2f2', margin:20, }} />
               
               <Text
                 style={{

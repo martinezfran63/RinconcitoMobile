@@ -58,8 +58,8 @@ export default StyleSheet.create({
       elevation: 5,
     },
     PriceContainer: {
-      flex: 1,
-      marginTop: 20,
+      flex: 3,
+      marginTop: 80,
       shadowColor: "#000",
       shadowOffset: {
         width: 0,
