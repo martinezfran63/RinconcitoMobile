@@ -16,6 +16,9 @@ class Home extends React.Component {
           source={require("../img/rinconcito_logo.png")}
         />
         <Button
+        buttonStyle={{
+          backgroundColor: "#f2f2f2",
+        }}
           titleStyle={{
             color: "#C81315",
             fontFamily: "Helvetica",

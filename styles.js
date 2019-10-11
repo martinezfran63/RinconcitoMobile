@@ -39,36 +39,8 @@ export default StyleSheet.create({
       backgroundColor: "#f2f2f2",
     },
     HeaderContainer: {
-      flex: 1,
+      flex: 2,
       flexDirection: "row",
-      margin: 20,
-      padding: 10,
-    },
-    TitleContainer: {
-      flex: 7,
-      marginTop: 40,
-      shadowColor: "#000",
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.25,
-      shadowRadius: 3.84,
-      
-      elevation: 5,
-    },
-    PriceContainer: {
-      flex: 3,
-      marginTop: 80,
-      shadowColor: "#000",
-      shadowOffset: {
-        width: 0,
-        height: 4,
-      },
-      shadowOpacity: 0.32,
-      shadowRadius: 5.46,
-
-      elevation: 9,
     },
     BodyContainer: {
       flex: 3,
