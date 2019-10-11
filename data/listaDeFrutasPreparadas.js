@@ -19,10 +19,19 @@ const listaDeFrutasPreparadas = [
     option: ''
   },
   {
+    name: 'Sandia Loca',
+    price: '$7.99',
+    icon_url: require('../img/Sandia_Loca_300x250.png'),
+    image_url: require('../img/Sandia_Loca_1280x800.png'),
+    subtitle: 'Sandia Loca',
+    description: 'Sandia',
+    option: ''
+  },
+  {
     name: 'Vaso Loco',
     price: '$7.99',
-    icon_url: require('../img/Nieves_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Vaso_Loco_300x250.png'),
+    image_url: require('../img/Vaso_Loco_1280x800.png'),
     subtitle: 'Vaso Loco',
     description: 'Preparelo a su gusto con fruta, gomitas, chamoy y mas',
     option: ''
@@ -30,8 +39,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Pepihuates',
     price: '$5.99',
-    icon_url: require('../img/Papas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Pepihuates_300x250.png'),
+    image_url: require('../img/Pepihuates_1280x800.png'),
     subtitle: 'Pepihuates',
     description: 'Pepino, Cacahuates Japones, jícama, limón',
     opton: ''
@@ -57,17 +66,17 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Fruta con Miel',
     price: '$5.40',
-    icon_url: require('../img/Fruta_con_Miel.png'),
+    icon_url: require('../img/Fruta_con_Miel_300x250.png'),
     image_url: require('../img/Fruta_con_Miel_1280x800.png'),
     subtitle: 'Fruta con Miel',
     description: 'Plátano, manzana, fresa, melón, papaya, queso cottage, miel y nuez',
     option: ''
   },
   {
-    name: 'Gaspacho',
+    name: 'Gazpacho',
     price: '$7.99',
-    icon_url: require('../img/Papas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Gazpacho_300x250.png'),
+    image_url: require('../img/Gazpacho_1280x800.png'),
     subtitle: 'Gaspacho',
     description: 'Toronja, naranja, sandía, melón, papaya, pína y mango',
     option: ''
@@ -75,8 +84,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Postre Amore',
     price: '$5.40',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
+    image_url: require('../img/Frutas_Preparadas.png'),
     subtitle: 'Postre Amore',
     description: 'Angel cake, crema, yogurt y fruta',
     option: ''
@@ -91,10 +100,10 @@ const listaDeFrutasPreparadas = [
     option: ''
   },
   {
-    name: 'Bananas con Crema',
+    name: 'Platano con Crema',
     price: '$5.99',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Platano_con_Crema_300x250.png'),
+    image_url: require('../img/Platano_con_Crema_1280x800.png'),
     subtitle: 'Bananas con Crema',
     description: 'Bananas con Crema',
     option: ''
