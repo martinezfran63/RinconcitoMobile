@@ -30,7 +30,7 @@ class MenuItem extends React.Component {
             <ListItem
               style={styles.price}
               containerStyle={{
-                backgroundColor: "white",
+                backgroundColor: "#f2f2f2",
                 shadowColor: "#000",
                 shadowOffset: {
                   width: 0,
@@ -51,7 +51,7 @@ class MenuItem extends React.Component {
            
             <Card
               containerStyle={{
-                backgroundColor: "white",
+                backgroundColor: "#f2f2f2",
                 shadowColor: "#000",
                 shadowOffset: {
                   width: 0,
@@ -68,7 +68,7 @@ class MenuItem extends React.Component {
                   color: "#C81315",
                   fontSize: 25,
                   fontWeight: "bold",
-                  textAlign: "right"
+                  textAlign: "left"
                 }}
               >
                 Descripción
@@ -78,7 +78,7 @@ class MenuItem extends React.Component {
                 style={{
                   color: "#282828",
                   fontSize: 20,
-                  textAlign: "right"
+                  textAlign: "left"
                 }}
               >
                 {product.description}
@@ -91,7 +91,7 @@ class MenuItem extends React.Component {
                   color: "#C81315",
                   fontSize: 25,
                   fontWeight: "bold",
-                  textAlign: "right"
+                  textAlign: "left"
                 }}
               >
                 Opciones
@@ -101,7 +101,7 @@ class MenuItem extends React.Component {
                 style={{
                   color: "#282828",
                   fontSize: 20,
-                  textAlign: "right"
+                  textAlign: "left"
                 }}
               >
                 {product.option}

@@ -16,12 +16,14 @@ import styles from "../styles.js";
 import rinconctio from "../img/rinconcito_logo.png";
 
 class SubMenu extends React.Component {
+  
   keyExtractor = (item, index) => index.toString();
 
   renderItem = ({ item }) => (
     <ListItem
       style={styles.listItem}
       containerStyle={{
+        backgroundColor: "#f2f2f2",
 
       }}
       titleStyle={{

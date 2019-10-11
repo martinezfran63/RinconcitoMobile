@@ -13,8 +13,10 @@ import listaDePapas from "../data/listaDePapas.js";
 
 class MainMenu extends React.Component {
   render() {
+    
     return (
       <View style={styles.mainContainer}>
+        
         <View style={styles.ContainerOne}>
           <Card
             containerStyle={{

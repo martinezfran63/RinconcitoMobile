@@ -20,7 +20,7 @@ export default StyleSheet.create({
     mainContainer: {
       flex: 1,
       flexDirection: 'row',
-      backgroundColor: "white",
+      backgroundColor: "#f2f2f2",
     },
     ContainerOne: {
       width: 340,
@@ -36,7 +36,7 @@ export default StyleSheet.create({
     },
     MenuItemMainContainer: {
       flex: 1,
-      backgroundColor: "white",
+      backgroundColor: "#f2f2f2",
     },
     HeaderContainer: {
       flex: 1,
@@ -122,12 +122,11 @@ export default StyleSheet.create({
     },
     flatList: {
       marginTop: 70,
+      backgroundColor:"#f2f2f2",
     },
     listItem: {
     },
     price: {
-      marginLeft: 10,
-      marginRight: 20,
       shadowColor: "#000",
       shadowOffset: {
         width: 0,
