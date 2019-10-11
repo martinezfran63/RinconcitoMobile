@@ -26,7 +26,7 @@ class MainMenu extends React.Component {
             }}
           >
             <Image
-              source={require("../img/Frutas_Preparadas_300x250.png")}
+              source={require("../img/Frutas_Preparadas_MainMenu_300x250.png")}
               style={{ width: 300, height: 250 }}
             />
             <Button
@@ -53,7 +53,7 @@ class MainMenu extends React.Component {
             }}
           >
             <Image
-              source={require("../img/Papas_300x250.png")}
+              source={require("../img/Papas_MainMenu_300x250.png")}
               style={{ width: 300, height: 250 }}
             />
             <Button
@@ -84,7 +84,7 @@ class MainMenu extends React.Component {
             }}
           >
             <Image
-              source={require("../img/Bebidas_300x250.png")}
+              source={require("../img/Bebidas_MainMenu_300x250.png")}
               style={{ width: 300, height: 250 }}
             />
             <Button
@@ -141,7 +141,7 @@ class MainMenu extends React.Component {
             }}
           >
             <Image
-              source={require("../img/Elotes_300x250.png")}
+              source={require("../img/Elotes_MainMenu_300x250.png")}
               style={{ width: 300, height: 250 }}
             />
             <Button

@@ -19,6 +19,15 @@ const listaDeBebidas = [
     option: 'Jamaca, Horchata, Toronada, Sandia, Melon, Pepino, Mango, Limon, Pina, Frutas Jicama, Guamoboro, Kombuchoa, Rompope, Palmita'
   },
   {
+    name: 'Ceviclamato',
+    price: '$11.99',
+    icon_url: require('../img/Ceviclamato_300x250.png'),
+    image_url: require('../img/Ceviclamato_1280x800.png'),
+    subtitle: 'Ceviclamato',
+    description: 'Clamato con salsa especial servido con camarón y carne seca (se puede agregar Vitamina B-12 o Ginseng)',
+    option: ''
+  },
+  {
     name: 'Clamato Preparado',
     price: '$11.99',
     icon_url: require('../img/Bebidas_300x250.png'),
@@ -111,8 +120,8 @@ const listaDeBebidas = [
   {
     name: 'Diablito con Gruta',
     price: '$5.49',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Diablito_300x250.png'),
+    image_url: require('../img/Diablito_1280x800.png'),
     subtitle: 'Diablito con Gruta',
     description: '',
     option: ''

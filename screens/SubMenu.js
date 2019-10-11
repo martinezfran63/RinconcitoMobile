@@ -13,8 +13,6 @@ import {
 } from "react-native";
 import { ListItem } from "react-native-elements";
 import styles from "../styles.js";
-import rinconctio from "../img/rinconcito_logo.png";
-
 class SubMenu extends React.Component {
   
   keyExtractor = (item, index) => index.toString();

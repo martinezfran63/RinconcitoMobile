@@ -102,8 +102,8 @@ const listaDeNieves = [
   {
     name: 'Diablito con Gruta',
     price: '$5.49',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/Diablito_300x250.png'),
+    image_url: require('../img/Diablito_1280x800.png'),
     subtitle: 'Diablito con Gruta',
     description: '',
     option: ''

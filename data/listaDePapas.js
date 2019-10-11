@@ -75,9 +75,18 @@ const listaDePapas = [
   {
     name: 'Tostilocos',
     price: '$4.99',
-    icon_url: require('../img/Papas_Nacho_300x250.png'),
-    image_url: require('../img/Papas_Nacho_1280x800.png'),
+    icon_url: require('../img/Tostilocos_300x250.png'),
+    image_url: require('../img/Tostilocos_1280x800.png'),
     subtitle: 'Tostilocos',
+    description: 'Tostitos, cueritos jicama, pepino, mango, repollo, cacahuates Japones, salsa especial ba&ntildeado con queso derretido',
+    option: ''
+  },
+  {
+    name: 'Tosticeviche',
+    price: '$4.99',
+    icon_url: require('../img/Tosticeviche_300x250.png'),
+    image_url: require('../img/Tosticeviche_1280x800.png'),
+    subtitle: 'Tosticeviche',
     description: 'Tostitos, cueritos jicama, pepino, mango, repollo, cacahuates Japones, salsa especial ba&ntildeado con queso derretido',
     option: ''
   },
