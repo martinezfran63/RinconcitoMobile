@@ -3,8 +3,8 @@ const listaDePapas = [
   {
     name: 'Papas al Gusto',
     price: '$6.00',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/MenuItemPage/Papas_Nacho_1280x800.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Papas al Gusto',
     description: 'Papas de su gusto, carne seca, camarón, cueritos, pepino, cacahuates Japones y salsa especial',
     option: ''
@@ -12,8 +12,8 @@ const listaDePapas = [
   {
     name: 'Carne Asada Machos',
     price: '$7.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Carne Asada Machos',
     description: '',
     option: ''
@@ -30,8 +30,8 @@ const listaDePapas = [
   {
     name: 'Gansito Loco',
     price: '$7.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Gansito Loco',
     description: '',
     option: ''
@@ -39,8 +39,8 @@ const listaDePapas = [
   {
     name: 'Carne Preparada',
     price: '$7.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Carne Preparada',
     description: 'Pepino, jícama, límon salsa',
     option: ''
@@ -66,8 +66,8 @@ const listaDePapas = [
   {
     name: 'Nachos',
     price: '$3.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Nachos',
     description: 'Chips, queso y jalapeño',
     option: ''

@@ -57,8 +57,8 @@ const listaDeNieves = [
   {
     name: 'Nieves',
     price: '$1.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Nieves',
     description: '',
     option: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
@@ -66,8 +66,8 @@ const listaDeNieves = [
   {
     name: 'Esquimales',
     price: '$5.40',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Esquimales',
     description: '',
     option: ''
@@ -75,8 +75,8 @@ const listaDeNieves = [
   {
     name: 'Mangoneada',
     price: '$4.50',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Mangoneada',
     description: '',
     option: ''
@@ -84,8 +84,8 @@ const listaDeNieves = [
   {
     name: 'Chamango',
     price: '$6.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Chamango',
     description: '',
     option: ''

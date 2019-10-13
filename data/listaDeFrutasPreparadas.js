@@ -3,8 +3,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Cóctel de Fruta',
     price: '$6.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Cóctel de Fruta',
     description: 'Pepino, jícama, sandía, melón, mango, piña, papaya, chile y limón',
     option: ''
@@ -48,8 +48,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Biónico',
     price: '$6.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Biónico',
     description: 'Melón, papaya, plátano, manzana, fresa, yogurt y granola',
     option: ''
@@ -111,8 +111,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Fresas Cubiertas en Chocolate',
     price: '$2.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Fresas Cubiertas en Chocolate',
     description: 'Fresas Cubiertas en Chocolate',
     option: ''

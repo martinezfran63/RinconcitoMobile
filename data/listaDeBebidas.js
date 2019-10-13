@@ -3,8 +3,8 @@ const listaDeBebidas = [
   {
     name: 'Monster Preparado',
     price: '$5.10',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Monster Preparado',
     description: 'Monster Preparado',
     option: ''
@@ -48,8 +48,8 @@ const listaDeBebidas = [
   {
     name: 'Michelitas',
     price: '$5.49',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Michelitas',
     description: 'Agua mineral preparado con clamato',
     option: ''
@@ -66,8 +66,8 @@ const listaDeBebidas = [
   {
     name: 'Sangria Preparada',
     price: '$5.00',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Sangria Preparada',
     description: '',
     option: ''
@@ -84,8 +84,8 @@ const listaDeBebidas = [
   {
     name: 'Caipirinha',
     price: '$5.00',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Caipirinha',
     description: 'Limonada Brasilena',
     option: ''
@@ -93,8 +93,8 @@ const listaDeBebidas = [
   {
     name: 'Green Tea',
     price: '$6.70',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Green Tea',
     description: '',
     option: ''
@@ -102,8 +102,8 @@ const listaDeBebidas = [
   {
     name: 'Chai Tea Latte',
     price: '$5.40',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Chai Tea Latte (calient / frio)',
     description: '',
     option: ''
@@ -111,8 +111,8 @@ const listaDeBebidas = [
   {
     name: 'Green Tea Matcha',
     price: '$3.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Green Tea Matcha',
     description: '',
     option: ''
@@ -120,8 +120,8 @@ const listaDeBebidas = [
   {
     name: 'Capuchino',
     price: '$3.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Capuchino',
     description: '',
     option: ''
@@ -129,8 +129,8 @@ const listaDeBebidas = [
   {
     name: 'Raspados',
     price: '$6.00',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Raspados',
     description: 'Sabores Variados',
     option: 'Pina Coloada, Tamarindo, Mango, Coco, Fresa, Nuez, Pina, '

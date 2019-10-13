@@ -7,7 +7,7 @@
     "privacy": "unlisted",
     "sdkVersion": "34.0.0",
     "entryPoint": "node_modules/expo/AppEntry.js",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "landscape",
     "icon": "./img/rinconcito_icon.png",
     "platforms": [

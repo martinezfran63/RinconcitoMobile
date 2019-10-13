@@ -21,8 +21,8 @@ const listaDeElotes = [
   {
     name: 'Esquites',
     price: '$8.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Blank_300x250.png'),
+    image_url: require('../img/MenuItemPage/Blank_1280x800.png'),
     subtitle: 'Esquites',
     description: '',
     option: ''
