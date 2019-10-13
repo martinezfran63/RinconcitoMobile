@@ -3,8 +3,8 @@ const listaDeNieves = [
   {
     name: 'Paletas',
     price: '$2.99/3.99',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Paletas',
     description: '',
     option: 'Fresas con Crema, Nuez, Pinon, Chocolate, Mamey, Chicle, Arroz, Pistacho, Sandia, Cajeta, Guotaba, Mangoneaoda, Chocobanana, Cajita de fresas con crema'
@@ -12,8 +12,8 @@ const listaDeNieves = [
   {
     name: 'Cazuelita de Nieve',
     price: '$6.99',
-    icon_url: require('../img/Nieves_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Cazuelita de Nieve',
     description: '',
     option: ''
@@ -21,8 +21,8 @@ const listaDeNieves = [
   {
     name: 'Malteadas',
     price: '$5.00',
-    icon_url: require('../img/Papas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/ListItem/Malteadas_300x250.png'),
+    image_url: require('../img/MenuItemPage/Malteadas_1280x800.png'),
     subtitle: 'Malteadas',
     description: '',
     option: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
@@ -30,8 +30,8 @@ const listaDeNieves = [
   {
     name: 'Banana Split',
     price: '$6.99',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/ListItem/Banana_Split_300x250.png'),
+    image_url: require('../img/MenuItemPage/Banana_Split_1280x800.png'),
     subtitle: 'Banana Split',
     description: '',
     option: ''
@@ -39,8 +39,8 @@ const listaDeNieves = [
   {
     name: 'Sundae',
     price: '$3.99',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Sundae',
     description: 'Dos bolitas de nieve, galleta y M&M, chocolate o fresa syrup',
     option: ''
@@ -48,8 +48,8 @@ const listaDeNieves = [
   {
     name: 'Chocobanan',
     price: '$5.99',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Chocobanan',
     description: '',
     option: ''
@@ -57,8 +57,8 @@ const listaDeNieves = [
   {
     name: 'Nieves',
     price: '$1.99',
-    icon_url: require('../img/Nieves_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Nieves',
     description: '',
     option: 'Fresa, Pistacho, Chocolate, Caramelo, Dulce de Leche, Menta con Chocolate, Vanilla, Oreo, Mango, Mora, Fresa con Cheescake, Mazapan '
@@ -66,8 +66,8 @@ const listaDeNieves = [
   {
     name: 'Esquimales',
     price: '$5.40',
-    icon_url: require('../img/Papas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Esquimales',
     description: '',
     option: ''
@@ -75,8 +75,8 @@ const listaDeNieves = [
   {
     name: 'Mangoneada',
     price: '$4.50',
-    icon_url: require('../img/Bebidas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Mangoneada',
     description: '',
     option: ''
@@ -84,8 +84,8 @@ const listaDeNieves = [
   {
     name: 'Chamango',
     price: '$6.99',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Chamango',
     description: '',
     option: ''
@@ -93,19 +93,10 @@ const listaDeNieves = [
     {
     name: 'Raspados',
     price: '$6.00',
-    icon_url: require('../img/Frutas_Preparadas_300x250.png'),
-    image_url: require('../img/Frutas_Preparadas_300x250.png'),
+    icon_url: require('../img/ListItem/Raspados_300x250.png'),
+    image_url: require('../img/MenuItemPage/Raspados_1280x800.png'),
     subtitle: 'Raspados',
     description: 'Sabores Variados',
-    option: ''
-  },
-  {
-    name: 'Diablito con Gruta',
-    price: '$5.49',
-    icon_url: require('../img/Diablito_300x250.png'),
-    image_url: require('../img/Diablito_1280x800.png'),
-    subtitle: 'Diablito con Gruta',
-    description: '',
     option: ''
   },
 ]

@@ -3,8 +3,8 @@ const listaDeElotes = [
   {
     name: 'Elote en Vaso',
     price: '$3.99',
-    icon_url: require('../img/Elote_Chorreado_300x250.png'),
-    image_url: require('../img/Elote_Chorreado_1280x800.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Elote en Vaso',
     description: '',
     option: ''
@@ -12,8 +12,8 @@ const listaDeElotes = [
   {
     name: 'Elote Chorrado',
     price: '$8.99',
-    icon_url: require('../img/Elote_Chorreado_300x250.png'),
-    image_url: require('../img/Elote_Chorreado_1280x800.png'),
+    icon_url: require('../img/ListItem/Elote_Chorreado_300x250.png'),
+    image_url: require('../img/MenuItemPage/Elote_Chorreado_1280x800.png'),
     subtitle: 'Elote Chorrado',
     description: '',
     option: ''
@@ -21,8 +21,8 @@ const listaDeElotes = [
   {
     name: 'Esquites',
     price: '$8.99',
-    icon_url: require('../img/Elote_Chorreado_300x250.png'),
-    image_url: require('../img/Elote_Chorreado_1280x800.png'),
+    icon_url: require('../img/rinconcito_logo.png'),
+    image_url: require('../img/rinconcito_logo.png'),
     subtitle: 'Esquites',
     description: '',
     option: ''
