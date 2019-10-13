@@ -102,8 +102,8 @@ const listaDePapas = [
   {
     name: 'Chilindrina',
     price: '$6.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Chilidrina_300x250.png'),
+    image_url: require('../img/MenuItemPage/Chilidrina_1280x800.png'),
     subtitle: 'Chilindrina',
     description: 'Cueritos con repollo, jitomate, aguacate, mayonesa, crema y Sala especial servido con un chicharron',
     option: ''

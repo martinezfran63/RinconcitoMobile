@@ -26,7 +26,7 @@ class MainMenu extends React.Component {
             }}
           >
             <Image
-              source={require("../img/MainMenu/Postre_Amore_MainMenu_300x250.png")}
+              source={require("../img/MainMenu/Fresas_con_Crema_MainMenu_300x250.png")}
               style={{ width: 300, height: 250 }}
             />
             <Button

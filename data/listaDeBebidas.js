@@ -39,8 +39,8 @@ const listaDeBebidas = [
   {
     name: 'Clamato Preparado',
     price: '$11.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Clamato_Preparado_300x250.png'),
+    image_url: require('../img/MenuItemPage/Clamato_Preparado_1280x800.png'),
     subtitle: 'Clamato Preparado',
     description: 'Clamato con salsa especial servido con camarón y carne seca (se puede agregar Vitamina B-12 o Ginseng)',
     option: ''

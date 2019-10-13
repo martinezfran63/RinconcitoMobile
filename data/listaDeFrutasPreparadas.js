@@ -93,8 +93,8 @@ const listaDeFrutasPreparadas = [
   {
     name: 'Fresas con Crema',
     price: '$5.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Fresas_con_Crema_300x250.png'),
+    image_url: require('../img/MenuItemPage/Fresas_con_Crema_1280x800.png'),
     subtitle: 'Fresas con Crema',
     description: 'Fresas y crema',
     option: ''

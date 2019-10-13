@@ -3,8 +3,8 @@ const listaDeElotes = [
   {
     name: 'Elote en Vaso',
     price: '$3.99',
-    icon_url: require('../img/rinconcito_logo.png'),
-    image_url: require('../img/rinconcito_logo.png'),
+    icon_url: require('../img/ListItem/Elote_en_Vaso_300x250.png'),
+    image_url: require('../img/MenuItemPage/Elote_en_Vaso_1280x800.png'),
     subtitle: 'Elote en Vaso',
     description: '',
     option: ''
